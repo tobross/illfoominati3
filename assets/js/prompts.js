@@ -56,13 +56,13 @@ var one = [
 ];
 switch(window.location.pathname){
     case "/illfoominati3/ovs.html":
-    ovs();
+    console.log("One Vs. Self");
     break;
     case "/illfoominati3/ovw.html":
     ovw();
     break;
     case "/illfoominati3/ova.html":
-    ova();
+    console.log("One Vs. Another");
     break;
     default: 
     console.log("Switch Default");
