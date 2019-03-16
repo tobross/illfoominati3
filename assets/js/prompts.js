@@ -131,10 +131,6 @@ function ova(){
     console.log("One Vs. Another")
 };
 
-for (var i=0; i<ovs.length; i++) {
-
-};
-
 // $(document).ready(function(){
 //     console.log(window.location.pathname)
 // });
