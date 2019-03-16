@@ -55,13 +55,13 @@ var world = [
     }
 ];
 switch(window.location.pathname){
-    case "/ovs.html":
+    case "/illfoominati3/ovs.html":
     ovs();
     break;
-    case "/ovw.html":
+    case "/illfoominati3/ovw.html":
     ovw();
     break;
-    case "/ova.html":
+    case "/illfoominati3/ova.html":
     ova();
     break;
     default: 
@@ -129,6 +129,6 @@ for (var i=0; i<ovs.length; i++) {
 
 };
 
-$(document).ready(function(){
-    console.log(window.location.pathname)
-});
+// $(document).ready(function(){
+//     console.log(window.location.pathname)
+// });
