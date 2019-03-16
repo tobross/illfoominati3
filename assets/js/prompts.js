@@ -1,4 +1,4 @@
-var one = [
+var world = [
     a1 = {
         image: "./assets/images/ep.jpg",
         number: "1",
@@ -25,7 +25,7 @@ var one = [
     }
 ];
 
-var world = [
+var one = [
     a1 = {
         image: "",
         number: "",
@@ -55,10 +55,10 @@ var world = [
     }
 ];
 switch(window.location.pathname){
-    case "/illfoominati3/ovw.html":
+    case "/illfoominati3/ovs.html":
     ovs();
     break;
-    case "/illfoominati3/ovs.html":
+    case "/illfoominati3/ovw.html":
     ovw();
     break;
     case "/illfoominati3/ova.html":
@@ -71,8 +71,8 @@ switch(window.location.pathname){
 };
 
 
-function ovs(){
-    for (var i=0; i <one.length; i++){
+function ovw(){
+    for (var i=0; i <world.length; i++){
         var pButton = "<div class='btn btn-primary prompts'>Prompt</div>";
         
         var eButton = "<div class='btn btn-success earth'>Earth</div>";
@@ -85,17 +85,17 @@ function ovs(){
         
         var reactions = "<div class='btn btn-primary reactions'>Reactions</div>";
 
-    var pBody = "<div class='promptData hide'>"+one[i].prompt+"</div>"
+    var pBody = "<div class='promptData hide'>"+world[i].prompt+"</div>"
     
-    var fire = "<div class='fireData hide'>Success: "+one[i].fire.success+"<br>Failure: "+one[i].fire.failure+"<br>Critical Failure: "+one[i].fire.critFail+"<div>";
+    var fire = "<div class='fireData hide'>Success: "+world[i].fire.success+"<br>Failure: "+world[i].fire.failure+"<br>Critical Failure: "+world[i].fire.critFail+"<div>";
 
-    var earth = "<div class='earthData hide'>Success: "+one[i].earth.success+"<br>Failure: "+one[i].earth.failure+"<br>Critical Failure: "+one[i].earth.critFail+"<div>";
+    var earth = "<div class='earthData hide'>Success: "+world[i].earth.success+"<br>Failure: "+world[i].earth.failure+"<br>Critical Failure: "+world[i].earth.critFail+"<div>";
 
-    var air = "<div class='airData hide'>Success: "+one[i].air.success+"<br>Failure: "+one[i].air.failure+"<br>Critical Failure: "+one[i].air.critFail+"<div>";
+    var air = "<div class='airData hide'>Success: "+world[i].air.success+"<br>Failure: "+world[i].air.failure+"<br>Critical Failure: "+world[i].air.critFail+"<div>";
 
-    var water = "<div class='waterData hide'>Success: "+one[i].water.success+"<br>Failure: "+one[i].water.failure+"<br>Critical Failure: "+one[i].water.critFail+"<div>";
+    var water = "<div class='waterData hide'>Success: "+world[i].water.success+"<br>Failure: "+world[i].water.failure+"<br>Critical Failure: "+world[i].water.critFail+"<div>";
 
-    var pImg = "<div><h1 class='number'>"+one[i].number+"</h1><img class='advimg' src='"+one[i].image+"'alt='advimg'><h3 class='card-title'>"+one[i].name+": "+one[i].period+"</h3></img></div>"
+    var pImg = "<div><h1 class='number'>"+world[i].number+"</h1><img class='advimg' src='"+world[i].image+"'alt='advimg'><h3 class='card-title'>"+world[i].name+": "+world[i].period+"</h3></img></div>"
 
      var pCard = $("<div class='card advcard'>"+pImg+
      "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
