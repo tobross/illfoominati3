@@ -55,10 +55,10 @@ var world = [
     }
 ];
 switch(window.location.pathname){
-    case "/illfoominati3/ovs.html":
+    case "/illfoominati3/ovw.html":
     ovs();
     break;
-    case "/illfoominati3/ovw.html":
+    case "/illfoominati3/ovs.html":
     ovw();
     break;
     case "/illfoominati3/ova.html":
