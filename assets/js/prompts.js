@@ -103,7 +103,7 @@ function ovw(){
      $(".promptBox").append(pCard);
  };
  console.log("One Vs. World");
- 
+
 $(".advcard").on("click", ".btn", function(){
     if ($(this).hasClass("prompts")){
         $(this).parent().children(".promptData").toggleClass("hide");
@@ -123,11 +123,11 @@ $(".advcard").on("click", ".btn", function(){
 })
 };
 
-var ovs = function(){
+function ovs(){
 console.log("One Vs. Self")
 };
 
-var ova = function(){
+function ova(){
     console.log("One Vs. Another")
 };
 
