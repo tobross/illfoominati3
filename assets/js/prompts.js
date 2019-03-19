@@ -255,15 +255,15 @@ var another = [
     }
 ];
 switch(window.location.pathname){
-    case "/illfoominati3/ovs.html":
+    case "/illfoominati3/ovs.html"||"/ovs.html":
     ovs();
     console.log("One Vs. Oneself")
     break;
-    case "/illfoominati3/ovw.html":
+    case "/illfoominati3/ovw.html"||"/ovw.html":
     ovw();
     console.log("One Vs. The World")
     break;
-    case "/illfoominati3/ova.html":
+    case "/illfoominati3/ova.html"||"/ova.html":
     ova();
     console.log("One Vs. Another")
     break;
@@ -305,8 +305,7 @@ function ovw(){
 
      $(".promptBox").append(pCard);
  };
- console.log("One Vs. World");
-
+ 
 $(".advcard").on("click", ".btn", function(){
     if ($(this).hasClass("prompts")){
         $(this).parent().children(".promptData").toggleClass("hide");
