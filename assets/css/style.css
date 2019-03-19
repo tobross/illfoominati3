@@ -34,7 +34,7 @@ body{
     float: left;
     margin-left: 20px !important;
     max-width: 300px;
-    background-image: url("../images/page.png");
+    background-image: url("../images/page2.png");
 
 }
 
@@ -103,8 +103,10 @@ body{
 .content {
     border: solid 2px black;
     /* border-radius: 25px; */
-    background-image: url("../images/page.png");
+    background-image: url("../images/page2.png");
     border-radius: 20px 0 20px 0;
+    background-size: cover;
+
 }
 
 .divider{
