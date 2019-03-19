@@ -54,20 +54,50 @@ var one = [
         }
     }
 ];
+
+var another = [
+    a1 = {
+        image: "",
+        number: "",
+        prompt: "",
+        name: "",
+        period: "",
+        fire: {
+            success: "",
+            failure: "",
+            critFail: ""
+        },
+        water: {
+            success: "",
+            failure: "",
+            critFail: ""
+        },
+        air: {
+            success: "",
+            failure: "",
+            critFail: ""
+        },
+        earth: {
+            success: "",
+            failure: "",
+            critFail: ""
+        }
+    }
+];
 switch(window.location.pathname){
-    case "/illfoominati3/ovs.html":
-    console.log("One Vs. Self");
+    case "/ovs.html":
+    ovs();
     break;
-    case "/illfoominati3/ovw.html":
+    case "/ovw.html":
     ovw();
     break;
-    case "/illfoominati3/ova.html":
-    console.log("One Vs. Another");
+    case "/ova.html":
+    ova();
     break;
     default: 
     console.log("Switch Default");
     console.log(window.location.pathname);
-    break;0
+    break;
 };
 
 
@@ -95,7 +125,7 @@ function ovw(){
 
     var water = "<div class='waterData hide'>Success: "+world[i].water.success+"<br>Failure: "+world[i].water.failure+"<br>Critical Failure: "+world[i].water.critFail+"<div>";
 
-    var pImg = "<div><h1 class='number'>"+world[i].number+"</h1><img class='advimg' src='"+world[i].image+"'alt='advimg'><h3 class='card-title'>"+world[i].name+": "+world[i].period+"</h3></img></div>"
+    var pImg = "<div><h3 class='card-title'><span class='number'>"+world[i].number+": </span>"+world[i].name+": "+world[i].period+"</h3><span></span></div>"
 
      var pCard = $("<div class='card advcard'>"+pImg+
      "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
@@ -124,13 +154,113 @@ $(".advcard").on("click", ".btn", function(){
 };
 
 function ovs(){
+    for (var i=0; i <one.length; i++){
+        var pButton = "<div class='btn btn-primary prompts'>Prompt</div>";
+        
+        var eButton = "<div class='btn btn-success earth'>Earth</div>";
+        
+        var fButton = "<div class='btn btn-danger fire'>Fire</div>";
+        
+        var aButton = "<div class='btn btn-light air'>Air</div>";
+        
+        var wButton = "<div class='btn btn-primary water'>Water</div>";
+        
+        var reactions = "<div class='btn btn-primary reactions'>Reactions</div>";
+
+    var pBody = "<div class='promptData hide'>"+one[i].prompt+"</div>"
+    
+    var fire = "<div class='fireData hide'>Success: "+one[i].fire.success+"<br>Failure: "+one[i].fire.failure+"<br>Critical Failure: "+one[i].fire.critFail+"<div>";
+
+    var earth = "<div class='earthData hide'>Success: "+one[i].earth.success+"<br>Failure: "+one[i].earth.failure+"<br>Critical Failure: "+one[i].earth.critFail+"<div>";
+
+    var air = "<div class='airData hide'>Success: "+one[i].air.success+"<br>Failure: "+one[i].air.failure+"<br>Critical Failure: "+one[i].air.critFail+"<div>";
+
+    var water = "<div class='waterData hide'>Success: "+one[i].water.success+"<br>Failure: "+one[i].water.failure+"<br>Critical Failure: "+one[i].water.critFail+"<div>";
+
+    var pImg = "<div><h3 class='card-title'><span class='number'>"+one[i].number+": </span>"+one[i].name+": "+one[i].period+"</h3><span></span></div>"
+
+     var pCard = $("<div class='card advcard'>"+pImg+
+     "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
+
+     $(".promptBox").append(pCard);
+ };
+ console.log("One Vs. Self");
+
+$(".advcard").on("click", ".btn", function(){
+    if ($(this).hasClass("prompts")){
+        $(this).parent().children(".promptData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("fire")){
+        $(this).parent().children(".fireData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("earth")){
+        $(this).parent().children(".earthData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("air")){
+        $(this).parent().children(".airData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("water")){
+        $(this).parent().children(".waterData").toggleClass("hide");
+    }
+})
 console.log("One Vs. Self")
 };
 
 function ova(){
+    for (var i=0; i <another.length; i++){
+        var pButton = "<div class='btn btn-primary prompts'>Prompt</div>";
+        
+        var eButton = "<div class='btn btn-success earth'>Earth</div>";
+        
+        var fButton = "<div class='btn btn-danger fire'>Fire</div>";
+        
+        var aButton = "<div class='btn btn-light air'>Air</div>";
+        
+        var wButton = "<div class='btn btn-primary water'>Water</div>";
+        
+        var reactions = "<div class='btn btn-primary reactions'>Reactions</div>";
+
+    var pBody = "<div class='promptData hide'>"+another[i].prompt+"</div>"
+    
+    var fire = "<div class='fireData hide'>Success: "+another[i].fire.success+"<br>Failure: "+another[i].fire.failure+"<br>Critical Failure: "+another[i].fire.critFail+"<div>";
+
+    var earth = "<div class='earthData hide'>Success: "+another[i].earth.success+"<br>Failure: "+another[i].earth.failure+"<br>Critical Failure: "+another[i].earth.critFail+"<div>";
+
+    var air = "<div class='airData hide'>Success: "+another[i].air.success+"<br>Failure: "+another[i].air.failure+"<br>Critical Failure: "+another[i].air.critFail+"<div>";
+
+    var water = "<div class='waterData hide'>Success: "+another[i].water.success+"<br>Failure: "+another[i].water.failure+"<br>Critical Failure: "+another[i].water.critFail+"<div>";
+
+    var pImg = "<div><h3 class='card-title'><span class='number'>"+another[i].number+": </span>"+another[i].name+": "+another[i].period+"</h3><span></span></div>"
+
+     var pCard = $("<div class='card advcard'>"+pImg+
+     "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
+
+     $(".promptBox").append(pCard);
+ };
+ console.log("One Vs. Another");
+
+$(".advcard").on("click", ".btn", function(){
+    if ($(this).hasClass("prompts")){
+        $(this).parent().children(".promptData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("fire")){
+        $(this).parent().children(".fireData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("earth")){
+        $(this).parent().children(".earthData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("air")){
+        $(this).parent().children(".airData").toggleClass("hide");
+    }
+    else if ($(this).hasClass("water")){
+        $(this).parent().children(".waterData").toggleClass("hide");
+    }
+})
     console.log("One Vs. Another")
 };
 
 // $(document).ready(function(){
 //     console.log(window.location.pathname)
 // });
+
+{/* <img class='advimg' src='"+world[i].image+"'alt='advimg'></img> */}
