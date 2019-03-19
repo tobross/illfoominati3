@@ -255,15 +255,15 @@ var another = [
     }
 ];
 switch(window.location.pathname){
-    case "/ovs.html":
+    case "/illfoominati3/ovs.html":
     ovs();
     console.log("One Vs. Oneself")
     break;
-    case "/ovw.html":
+    case "/illfoominati3/ovw.html":
     ovw();
     console.log("One Vs. The World")
     break;
-    case "/ova.html":
+    case "/illfoominati3/ova.html":
     ova();
     console.log("One Vs. Another")
     break;
