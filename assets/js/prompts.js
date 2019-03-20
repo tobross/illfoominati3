@@ -255,17 +255,26 @@ var another = [
     }
 ];
 switch(window.location.pathname){
-    case "/illfoominati3/ovs.html"||"/ovs.html":
+    case "/illfoominati3/ovs.html":
+    case "/C:/Users/tobro/sideProjects/illfoominati3/ovs.html":
+    case "/ovs.html":
     ovs();
-    console.log("One Vs. Oneself")
+    console.log("One Vs. Oneself");
+    console.log(window.location.pathname);
     break;
-    case "/illfoominati3/ovw.html"||"/ovw.html":
+    case "/illfoominati3/ovw.html":
+    case "/C:/Users/tobro/sideProjects/illfoominati3/ovw.html":
+    case "/ovw.html":
     ovw();
-    console.log("One Vs. The World")
+    console.log("One Vs. The World");
+    console.log(window.location.pathname);
     break;
-    case "/illfoominati3/ova.html"||"/ova.html":
+    case "/illfoominati3/ova.html":
+    case "/C:/Users/tobro/sideProjects/illfoominati3/ova.html":
+    case "/ova.html":
     ova();
     console.log("One Vs. Another")
+    console.log(window.location.pathname);
     break;
     default: 
     console.log("Switch Default");
