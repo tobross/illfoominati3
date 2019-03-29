@@ -217,74 +217,237 @@ var world = [
             failure: " (1-9)<br>You keep pretty quiet on the actual hunt - making sure your gun has the safety on multiple times. He’s taking the lead, and brings you to his favorite crows nest. Sitting in the quiet natural environment together, you can feel his aura begin to soften. You want to talk about how beautiful it is, but he keeps shushing you. After some awkward silence, you speak up to try and connect - but just then a deer walks by. You spook it with your sudden <br>",
             critFail: "X"
         }
-    }
+    },
+    {
+        image: "",
+        number: "8",
+        prompt: "Haven’t you always been a rather fearless human? Challenges have given you a reason to go further, walls that were in your way were always a reason to climb higher, and when your friends told you ghost stories around the campfire you always laughed in their faces at the ridiculousness of it all. Who could believe in ghosts anyway?<br><br>That is why it’s rather upsetting that as you’re driving home from a night out at the bars - your eye catches something peculiar. In preparation for a lane change you give your mirror a quick look and suddenly see a figure sitting in the backseat.  Your heart skips a beat and time seems to slow down. You do a double-take and realize that…. it’s you? A mirage perhaps? A doppelganger? You’re not quite sure, but as time speeds back up, a street lamp illuminates the back of your car to reveal that there was nothing there at all. Just an empty seat.<br><br>You let out a quick nervous chuckle. There obviously had been nothing there. You’re just drunk and probably seeing things.  There’s no way that whatever you just saw, or rather didn’t see, was even real! You roll your eyes and continue down the freeway, eventually reaching home with little incident.<br><br>You head upstairs and enter your poorly lit apartment.  That damn kitchen light flickers like it always does, and the Blue Line rumbles past your living room window, causing your own floorboards to shudder from the heavy vibrations. Getting into your usual routine, you stride down the hallway and start getting ready for bed.<br><br>You enter the bathroom to brush your teeth and the temperature seems to drop, sending goosebumps up your arms.  That’s odd. It’s the dead of summer and your bathroom feels like a freezer. Did your AC unit really pump out that much cold air? You have little time to contemplate this mystery, however, as your gaze moves towards the mirror.<br><br>From your well kept hair to that drop-dead smile, that thing in the mirror certainly looks like you. But you can tell that something is wrong as it moves its arm and gives a short, intimidating wave. You are most certainly not waving. The figure in the mirror responds to your gawking attitude by giving you an all-knowing smirk, as if it knows more about you than you know about yourself.  A deep, unsettling feeling fills the pit in your stomach. Now, you know what Jon Snow must’ve felt like.<br><br>In a flash, your doppelganger reaches for the mirror-image of your razor blade and puts it up to its own neck - your neck.",
+        name: "The Shifting Mirror",
+        period: "",
+        fire: {
+            critSuccess: "(recommended hardest)<br>You’re hardly hesitate as you attempt to swing with your leg at your mirror and instead are met by the hand of your doppelganger which eerily slips out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again.<br><br>You assume a different pose opposite your opponent and take a deep breath, not falling  for your doppelganger’s taunt. Instead, you urge it to attack you by making the same motion.  The doppelganger charges, but despite looking just like you, it doesn’t appear to be able to keep up with your honed skills.  In time you manage to grab onto its hair, and sink your fingers into its scalp. With a resounding heave you shove the creature back into the mirror where it will remain, trapped for all eternity - never to bother you and yo’ ghostbustin’ skills again.<br><br>(EXTRA EXP + TITLE: GHOSTBUSTER)<br>",
+            success: "X<br>",
+            failure: "(XXX)<br>“What the hell is going on!?” You scream and burst into action as a fire lights your every muscle.  You give a roundhouse kick to your own mirror, causing it to shatter into a thousand pieces.  As your rage settles, you feel a warmth surround you as the temperature in the room seems to return to normal.  You have a slight cut from the initial kick, but nothing too serious.<br><br>As you’re cleaning up the shattered glass, you receive a text from your friend, “DUUUUDE - that shit we did. Man, I’m totalling wiggin’ out on it.” You don’t bother responding as you’re more irritated about the broken mirror.  You open your trash can lid and toss out the shattered remains of that whole experience into the garbage, stating out loud, “Ghosts aren’t fucking  real.”<br>",
+            critFail: "(XXX)<br>A fire burns into you lithe form. You attempt to swing your leg at your mirror and instead are met by the hand of your doppelganger, eerily slipping out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again. With a howl you attack, but are instantaneously overmatched as it mirrors your technique, blow for blow. It takes time, but you slowly tire. Eventually it scores a hit that you are unable to come back from and the world slowly turns to darkness."
+        },
+        water: {
+            critSuccess: "(recommended harder)<br>A surge of emotion flows through your bloodstream. You simply take three of your fingers and lightly press them against the mirror, attempting to touch the figures face. Instead of feeling the cold glass of your mirror, you feel the soft and gentle skin of your doppelganger’s temples. It’s like touching your own face.<br><br>A long moment passes and a calmness fills the air. You sense that this spirit simply needed a friend - that when they were alive they had needed someone like you in their life.  A feeling passes through you and it suddenly feels like your fingers aren’t touching the dopplegangers face, but your face instead - as if you’re feeling your own forehead by touching the mirror.  With a wide grin you give the faintest of laughs, as the creature turns suddenly into mist, pouring through your fingers to slowly become apart of you.<br><br>‘Maybe ghosts are real after all…’ You can’t help but think to yourself.<br>(EXTRA EXP + TITLE SPEAKER FOR THE DEAD)<br>",
+            success: "X<br>",
+            failure: "(XXX)<br>You glance into your doppelgangers eyes, into your own eyes. “Please don’t do that…” You warily respond, unsure of exactly what is happening. Your mirrored self looks confused and lost in thought, as if it’s unsure of what to do. You tentatively extend your hands towards the mirror and approach it, in an attempt to dissuade this hostile behavior.<br><br>Your doppelganger looks from the razor to you, and then back to the razor before suddenly fleeing and disappearing from the edges of the mirror. You rush towards it and press your face against the glass in an attempt to see where they went, however you’re unable to see them at all.<br><br>While you’re happy that you survived whatever just occurred, you can’t help but feel that you missed something… something larger than yourself.<br>",
+            critFail: "X"
+        },
+        air: {
+            critSuccess: "X<br>",
+            success: "(recommended medium)<br>Instead of focusing on what’s in front of you you choose to look inwards. A soothing breeze courses through your body as you close your eyes and attempt to see the big picture.  You were at a bar… you had something to drink… is that all you had? No, there was something else.  Your friends had given you something, though you can’t entirely remember exactly what it was. You turn away from the mirror, rubbing your heavy eyes, and crash into the featherly bliss of your bed.<br>",
+            failure: "(XXX)<br>‘God - what is happening!?’, you ask yourself as you attempt to look inwards. You close your eyes and rub them, only succeeding in agitating them more. A breeze brushes along your skin, and you think. ‘that darn AC really must have been on all day.’ You open your eyes, assuming that your doppelganger would disappear. Instead  you now find yourself trapped inside a mirrored cage.  It takes you a second for you to realize that you have somehow moved into an entirely new dimension, switching places with the doppelganger.  It is now taking on your everyday life as you can but watch through this strange oracular portal.  Eventually you manage to break out, but who knows how long it took you to figure that out.<br>",
+            critFail: "X"
+        },
+        earth: {
+            critSuccess: "(recommended easiest)<br>You feel a rush of your earth spirit fill every pour in your body, as you give the doppelganger that same all-knowing grin.  Crossing your arms over your chest you stand your ground defiantly, which confuses your opponent in the mirror.  Your doppelganger no longer seems as sure of itself, and you can tell that it’s starting to get anxious. A moment passes and its gaze shifts from the razor to you, and then back to the razor.  It yells out a silent howl and stabs itself in the neck. You don’t feel a thing, but it most certainly does, as its hand wobbles on the sink to stabilize, only to stumble and crash its head into the porcelain.  You no longer see its face from your angle, but you do see it’s blood squirting into the air, as it’s hand slides off the sink, never to be seen again.<br><br>‘Fuck you Jon Snow,’ you growl triumphantly, before heading off to into a peaceful sleep to help cure your inevitable hangover.  Ghosts still ain’t real.<br>",
+            success: "(XXX)<br>You put on your best defiant smirk as you cross your arms over your chest, “Ghosts ain’t real, honey.” You tell the creature in front of you, snapping your fingers in a zigzag pattern to give your statement a lil’ pizzazz. Your doppelganger doesn’t really know what to make of your attitude. It pokes the razor at its neck and you also feel a slight poking.  For the rest of your life you seem to have this constant itch there that never seems to go away.<br>",
+            failure: "X<br>",
+            critFail: "(XXX)<br>You give the creature in the mirror a firm smile as you cross your arms defiantly, as if daring it to try. Your doppelganger gives off a silent hysterical laughter as it stabs itself in the neck. You feel a sudden jolt of pain as something pierces the side of your own neck - it’s your freakin’ razor!  You don’t have much time as your arm attempts to stall your fall, but your weight crumples beneath you and dizziness washes over you. You hit your head with a thud and crash onto the floor as blood splatters the shower curtains.<br><br>You see one last image before everything fades to blackness: your doppelganger pulling itself through the mirror and sarcastically smirking down at you, “Ghosts are real, silly.” It’s hysterical laughter now echoing in the chill air.<br>"
+        }
+    },
+    {
+        image: "",
+        number: "9",
+        prompt: "",
+        name: "",
+        period: "",
+        fire: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X<br>"
+        },
+        water: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X"
+        },
+        air: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X"
+        },
+        earth: {
+            critSuccess: "X<br>",
+            success: "X",
+            failure: "X<br>",
+            critFail: "X"
+        }
+    },
+    {
+        image: "",
+        number: "10",
+        prompt: "",
+        name: "",
+        period: "",
+        fire: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X<br>"
+        },
+        water: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X"
+        },
+        air: {
+            critSuccess: "X<br>",
+            success: "X<br>",
+            failure: "X<br>",
+            critFail: "X"
+        },
+        earth: {
+            critSuccess: "X<br>",
+            success: "X",
+            failure: "X<br>",
+            critFail: "X"
+        }
+    },
+    // {
+    //     image: "",
+    //     number: "",
+    //     prompt: "",
+    //     name: "",
+    //     period: "",
+    //     fire: {
+    //         critSuccess: "X<br>",
+    //         success: "X<br>",
+    //         failure: "X<br>",
+    //         critFail: "X<br>"
+    //     },
+    //     water: {
+    //         critSuccess: "X<br>",
+    //         success: "X<br>",
+    //         failure: "X<br>",
+    //         critFail: "X"
+    //     },
+    //     air: {
+    //         critSuccess: "X<br>",
+    //         success: "X<br>",
+    //         failure: "X<br>",
+    //         critFail: "X"
+    //     },
+    //     earth: {
+    //         critSuccess: "X<br>",
+    //         success: "X",
+    //         failure: "X<br>",
+    //         critFail: "X"
+    //     }
+    // }
 ];
 
 var one = [
     {
-        image: "",
-        number: "",
-        prompt: "",
-        name: "",
-        period: "",
-        fire: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: "<br>"
-        },
-        water: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        },
-        air: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        },
-        earth: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        }
-    }
+        number: "1",
+        prompt: "You got 4 job offers at the same time///your tinder says you have 4 matches...",
+        name: "FLIP CUP",
+        type: "FFA",
+    },{
+        number: "2",
+        prompt: "You just got a text from you ex, they tell you they want to get together for some tea and catch up, they just got a promotion and are moving in with a new partner. You  are split on how you should reply...",
+        name: "PONG",
+        type: "FFA",
+    },{
+        number: "3",
+        prompt: "You snuck your high school crush into your room, your parents knock on your door - “open up” you are torn on how to react.",
+        name: "ALPHABET",
+        type: "FFA",
+    },{
+        number: "4",
+        prompt: "You have a free day - you can’t decide whether play video games, take a day of self care, hit up your friends, or exercise...",
+        name: "ELEMENTAL CARD GAME",
+        type: "FFA",
+    },{
+        number: "5",
+        prompt: "You are torn between going out with your friends and a night of self care...",
+        name: "RIDDLES",
+        type: "2V2",
+    },{
+        number: "6",
+        prompt: "You found a wallet, you are torn between taking it or turning it in...",
+        name: "MATHEMATICAL",
+        type: "2V2",
+    },{
+        number: "7",
+        prompt: "Your friend just got into a fight at a bar, you torn on whether you help them or let them learn their lesson on their own",
+        name: "ROCK, PAPER, SCISSORS",
+        type: "2V2",
+    },{
+        number: "8",
+        prompt: "You're meeting a new person you like. You are torn between being who you are are who you think they would like / is it time to put on your mask or not? ",
+        name: "CHARADES",
+        type: "2V2",
+    },{
+        number: "9",
+        prompt: "There is an addictive part of you, which it’s time to face...",
+        name: "PONG",
+        type: "3V1",
+    },{
+        number: "10",
+        prompt: "There is a part of you that is not being honest...",
+        name: "HUNGRY HIPPOS",
+        type: "3V1",
+    },{
+        number: "11",
+        prompt: "You're having financial problems and it’s time to get your finances together, which element needs to reigned in?",
+        name: "SIMON",
+        type: "3V1",
+    },{
+        number: "12",
+        prompt: "College exams are upon us, your friends has offered to give you the answers... you are torn on what to do",
+        name: "TRIVIA",
+        type: "3V1",
+    },
 ];
 
 var another = [
     {
-        image: "",
-        number: "",
+        number: "1",
+        prompt: "Stung by bees, only one epi pen left. - Last spot on the lifeboat - last parshute - Future death race - ",
+        name: "DEATH-DODGE BALL",
+    },
+    {
+        number: "2",
+        prompt: "You just got a text from you ex, they tell you they want to get together for some tea and catch up, they just got a promotion and are moving in with a new partner. You  are split on how you should reply...",
+        name: "DEATH-PONG WAR",
+    },
+    {
+        number: "3",
+        prompt: "You found a wallet, you are torn between taking it or turning it in...",
+        name: "DEATH-MATHEMATICAL",
+    },
+    {
+        number: "4",
         prompt: "",
-        name: "",
-        period: "",
-        fire: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: "<br>"
-        },
-        water: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        },
-        air: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        },
-        earth: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "<br>",
-            critFail: ""
-        }
+        name: "DEATH-NINJA",
+    },
+    {
+        number: "5",
+        prompt: "You are both architects pitching competing ideas for a grant, only one presentation will be funded.",
+        name: "PICTIONARY",
+    },
+    {
+        number: "6",
+        prompt: "Both people lost in the wilderness for weeks, you come upon a camp with only enough food water for one person.<br><br>Hunting accident, both hunting and both fire at same time.",
+        name: "ELEMENTAL ROCK, PAPER, SCISSORS",
+    },
+    {
+        number: "7",
+        prompt: "New boss, girlfriends parents, person you woke up next to.",
+        name: "NAME GAME",
+    },
+    {
+        number: "8",
+        prompt: "",
+        name: "CATEGORIES",
     }
 ];
 
@@ -383,19 +546,11 @@ function ovs(){
         var reactions = "<div class='btn btn-primary reactions'>Reactions</div>";
 
     var pBody = "<div class='promptData hide'>"+one[i].prompt+"</div>"
-    
-    var fire = "<div class='fireData hide'>Critical Success: "+one[i].fire.critSuccess+"<br>Success: "+one[i].fire.success+"<br>Failure: "+one[i].fire.failure+"<br>Critical Failure: "+one[i].fire.critFail+"<div>";
 
-    var earth = "<div class='earthData hide'>Critical Success: "+one[i].earth.critSuccess+"<br>Success: "+one[i].earth.success+"<br>Failure: "+one[i].earth.failure+"<br>Critical Failure: "+one[i].earth.critFail+"<div>";
-
-    var air = "<div class='airData hide'>Critical Success: "+one[i].air.critSuccess+"<br>Success: "+one[i].air.success+"<br>Failure: "+one[i].air.failure+"<br>Critical Failure: "+one[i].air.critFail+"<div>";
-
-    var water = "<div class='waterData hide'>Critical Success: "+one[i].water.critSuccess+"<br>Success: "+one[i].water.success+"<br>Failure: "+one[i].water.failure+"<br>Critical Failure: "+one[i].water.critFail+"<div>";
-
-    var pImg = "<div><h3 class='card-title'><span class='number'>"+one[i].number+": </span>"+one[i].name+": "+one[i].period+"</h3><span></span></div>"
+    var pImg = "<div><h3 class='card-title'><span class='number'>"+one[i].number+": </span>"+one[i].name+": "+one[i].type+"</h3><span></span></div>"
 
      var pCard = $("<div class='card advcard'>"+pImg+
-     "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
+     "<div class='card-body'><ul><li>"+pButton+pBody+"</li></ul></div></div>");
 
      $(".promptBox").append(pCard);
  };
@@ -420,32 +575,14 @@ $(".advcard").on("click", ".btn", function(){
 
 function ova(){
     for (var i=0; i <another.length; i++){
-        var pButton = "<div class='btn btn-primary prompts'>Prompt</div>";
-        
-        var eButton = "<div class='btn btn-success earth'>Earth</div>";
-        
-        var fButton = "<div class='btn btn-danger fire'>Fire</div>";
-        
-        var aButton = "<div class='btn btn-light air'>Air</div>";
-        
-        var wButton = "<div class='btn btn-primary water'>Water</div>";
-        
-        var reactions = "<div class='btn btn-primary reactions'>Reactions</div>";
+        var pButton = "<div class='btn btn-primary prompts'>Game</div>";
 
     var pBody = "<div class='promptData hide'>"+another[i].prompt+"</div>"
-    
-    var fire = "<div class='fireData hide'>Critical Success: "+another[i].fire.critSuccess+"<br>Success: "+another[i].fire.success+"<br>Failure: "+another[i].fire.failure+"<br>Critical Failure: "+another[i].fire.critFail+"<div>";
 
-    var earth = "<div class='earthData hide'>Critical Success: "+another[i].earth.critSuccess+"<br>Success: "+another[i].earth.success+"<br>Failure: "+another[i].earth.failure+"<br>Critical Failure: "+another[i].earth.critFail+"<div>";
-
-    var air = "<div class='airData hide'>Critical Success: "+another[i].air.critSuccess+"<br>Success: "+another[i].air.success+"<br>Failure: "+another[i].air.failure+"<br>Critical Failure: "+another[i].air.critFail+"<div>";
-
-    var water = "<div class='waterData hide'>Critical Success: "+another[i].water.critSuccess+"<br>Success: "+another[i].water.success+"<br>Failure: "+another[i].water.failure+"<br>Critical Failure: "+another[i].water.critFail+"<div>";
-
-    var pImg = "<div><h3 class='card-title'><span class='number'>"+another[i].number+": </span>"+another[i].name+": "+another[i].period+"</h3><span></span></div>"
+    var pImg = "<div><h3 class='card-title'><span class='number'>"+another[i].number+": </span>"+another[i].name+":</h3><span></span></div>"
 
      var pCard = $("<div class='card advcard'>"+pImg+
-     "<div class='card-body'><ul><li>"+pButton+pBody+"</li><li>"+fButton+fire+"</li><li>"+eButton+earth+"</li><li>"+aButton+air+"</li><li>"+wButton+water+"</li></ul></div></div>");
+     "<div class='card-body'><ul><li>"+pButton+pBody+"</li></ul></div></div>");
 
      $(".promptBox").append(pCard);
  };

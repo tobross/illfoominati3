@@ -99,6 +99,25 @@ body{
     /* border-radius: 25px; */
     /* border-radius: 0 0 20px 0; */
 }
+.titleE {
+    background-color: rgb(33, 131, 54);
+    border: solid 2px black;
+}
+
+.titleA {
+    background-color: rgb(152, 226, 216);
+    border: solid 2px black;
+}
+
+.titleF {
+    background-color: rgb(228, 118, 28);
+    border: solid 2px black;
+}
+
+.titleW {
+    background-color: rgb(57, 78, 170);
+    border: solid 2px black;
+}
 
 .content {
     border: solid 2px black;
