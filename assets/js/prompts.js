@@ -416,7 +416,7 @@ var another = [
     },
     {
         number: "2",
-        prompt: "You just got a text from you ex, they tell you they want to get together for some tea and catch up, they just got a promotion and are moving in with a new partner. You  are split on how you should reply...",
+        prompt: "",
         name: "DEATH-PONG WAR",
     },
     {
