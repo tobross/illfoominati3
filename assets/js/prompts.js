@@ -6,11 +6,10 @@ var world = [
         name: "Park Shooting",
         period: "Mid Life",
         fire: {
-            critSuccess: "X",
-            success: "(19+)<br>You pick up a flat stone by your feet, roughly half a pound in weight. You take aim and hurl it as if skipping across a pond. Beyond any expectations, it ricochets off the sidewalk and into the side of the shooter's head, knocking them unconscious. You disarm them, restrain them, and call for police.<br>",
-            failure: "(10-18)<br>You gather up your rage and step out from behind your cover, shouting. The shooter spots you immediately and fires. You take the shot in your hip and collapse. Shock sets in and you fall unconscious, only to be revived at the hospital with grim news. Even with phisical rehabilitation, your chances of running again are slim to none.<br>",
+            critSuccess: "(19+)<br>You pick up a flat stone by your feet, roughly half a pound in weight. You take aim and hurl it as if skipping across a pond. Beyond any expectations, it ricochets off the sidewalk and into the side of the shooter's head, knocking them unconscious. You disarm them, restrain them, and call for police.<br>",
+            success: "X<br>",
+            failure: "(1-18)<br>You gather up your rage and step out from behind your cover, shouting. The shooter spots you immediately and fires. You take the shot in your hip and collapse. Shock sets in and you fall unconscious, only to be revived at the hospital with grim news. Even with phisical rehabilitation, your chances of running again are slim to none.<br>",
             critFail: "(1-9)<br>You charge the shooter. Less than fifty feet seperate you. Hoping to throw them off balance and hold them accountable for their actions, your vision tunnels. You fail to notice the driver has returned. They plow over the curb and two other park goers, careening invariably in your direction. It is too late to escape...<br>(GAME OVER)<br>",
-            failure: "X<br>",
             critFail: "X"
         },
         water: {
@@ -257,26 +256,26 @@ var world = [
         period: "",
         fire: {
             critSuccess: "X<br>",
-            success: "X<br>",
+            success: "(6+)<br>'You've come back to haunt me, even now? If it weren't for you fighting with me over... what was it, cheese?! Maybe then you'd still be alive and I'd still have my kid!'<br><br>In a rage of frustration, you storm away from the appiration. You slip on the spilled mustard from the week before, reach for something to catch yourself, lucky for you, you left the fridge open and were able to grab the door handle.<br><br>You decide it's time to get your act together and begin to clean, starting with the floor.<br>",
             failure: "X<br>",
-            critFail: "X<br>"
+            critFail: "(1-5)<br>'You've come back to haunt me, even now? If it weren't for you fighting with me over... what was it, cheese?! Maybe then you'd still be alive and I'd still have my kid!'<br><br>In a rage of frustration, you storm away from the appiration. You slip on the spilled mustard from the week before, reach for something to catch yourself, loosely snag a kitchen knife handle and fall. The knife falls with you. The blade, such as a razor's edge, didn't even hurt...<br>(GAME OVER)<br>"
         },
         water: {
-            critSuccess: "X<br>",
+            critSuccess: "(17+)<br>Tears well up in your tired eyes. 'I'm sorry!' you blubber. I knew we weren't doing well. I knew we should have split before that night... It was just easier not to fight. We should have fought! Maybe then you'd still be alive. Maybe not with me, but alive.<br><br>'NO!', you exclaim. 'No, I won't let us both go!' You brace yourself for the inevitable tears and fight your loathing, your will to let it all go, and abandon this life all together. You defy your very nature. You've always taken the path of least resistance but no more!<br><br>You contact a grief counselor the following morning and go to your regular appointments. Life can go on, you learn, even after tragedy.<br>(EXTRA EXP + TITLE: THE DEFIANT)<br>",
             success: "X<br>",
             failure: "X<br>",
-            critFail: "X"
+            critFail: "(1-16)<br>Tears well up in your tired eyes. 'I'm sorry!' you blubber. I knew we weren't doing well. I knew we should have split before that night... It was just easier not to fight. We should have fought! Maybe then you'd still be alive. Maybe not with me, but alive.<br><br>You crumple to the floor of your kitchen in a sobbing heap, leaning into the still-open refridgerator.<br><br>Your daughter comes to visit the following Monday like she always does. It is unfortunate that she is the one who finds you...<br><br>The path of least resistance is not often the same for everyone you affect.<br>(GAME OVER)<br>"
         },
         air: {
             critSuccess: "X<br>",
-            success: "X<br>",
-            failure: "(XXX)<br>Suddenly, they vanish and you are alone in the room, another hallicination brought on by guilt and mourning...<br>",
+            success: "(8+)<br>You reach out your hand to them and they pull back. You can see the sadness in their eyes and begin to apologize but they stop you. You hear their sweet voice once again. 'I am safe', they say. 'This is not your burden to bear, my assailant was brought to justice. You deserve none of this pain. Miss me, mourn for me, but do not tourture yourself for me. Instead, live for me!'<br><br>Then, as suddenly as they appeared, they vanish.<br><br>You resolve to do just that, live.<br>",
+            failure: "(1-8)<br>Suddenly, they vanish and you are alone in the kitchen illuminated by the cool, emotionless, refridgerator light. Another hallicination brought on by guilt and mourning...<br>You shudder and shamble back to bed.<br>",
             critFail: "X"
         },
         earth: {
-            critSuccess: "X<br>",
+            critSuccess: "(12+)You immediately dismiss the perceived apparition as nonsense. Ghosts aren't real, and their death wasn't your fault. The shooter was brought to justice. You obviously need more sleep, better nutrition, and some sun. You set an alarm and write yourself a note to call your daughter the next day. It's time to move forward, other people need you.<br><br>After meeting with your daughter, she agrees to help you clean up your place. It turns into an 80's style musical cleaning montage complete with clean floor sock-sliding. Your relationship with her flourishes again.<br>",
             success: "X",
-            failure: "X<br>",
+            failure: "(1-11)<br>Your dead pan face wrinkles in agony as your even keel nature breaks. You confess that you were drunk that night and that you were too sturborn to admit it. You yell into nothingness that it's all your fault!<br><br>Your suspicious upstairs neighbor hears this and calls the police.<br>",
             critFail: "X"
         }
     },
@@ -410,17 +409,17 @@ var one = [
 var another = [
     {
         number: "1",
-        prompt: "Individually, you’ve decided that it’s time to shake life up a bit - and both of your partners suggest skydiving lessons. Neither of you have been skydiving before, but figure it might be a great rush. You’re getting to know each other casually, talking over the headset about how strange the whole experience is. You’re both starting to like each other when a loud explosion shakes the hull.<br><br>“Our engine is blown out!” You hear the pilot yell, as both him and the instructor grab their packs early.<Br><br>“We have no choice, everyone needs to jump now!” The instructor screams. “Get those packs on and follow me!”<br><br>But they both jump first, leaving the two of you to look at each other. You turn around to the rack of remaining parachutes when it hits both of you - there is only one left. Play a game of dodgeball to decide who gets off the plane with the parachute!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio><img src='ep,jpg' alt='image'></img>",
+        prompt: "Individually, you’ve decided that it’s time to shake life up a bit - and both of your partners suggest skydiving lessons. Neither of you have been skydiving before, but figure it might be a great rush. You’re getting to know each other casually, talking over the headset about how strange the whole experience is. You’re both starting to like each other when a loud explosion shakes the hull.<br><br>“Our engine is blown out!” You hear the pilot yell, as both him and the instructor grab their packs early.<Br><br>“We have no choice, everyone needs to jump now!” The instructor screams. “Get those packs on and follow me!”<br><br>But they both jump first, leaving the two of you to look at each other. You turn around to the rack of remaining parachutes when it hits both of you - there is only one left. Play a game of dodgeball to decide who gets off the plane with the parachute!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='pad titleF'><source src='https://cdn.fbsbx.com/v/t59.3654-21/53238544_656295544840323_3697924570787872768_n.mp3/dEATH-MATCH-REAL-REAL.mp3?_nc_cat=102&_nc_ht=cdn.fbsbx.com&oh=5e5508a8f8fb8e2257dc874fa7c2a2dc&oe=5CA1FD2A&dl=1&fbclid=IwAR3UplkQKqTCEyIcOuXywaOzYFE6HAreki1dwHKjO8ZMHl54ZIcJA6E-V1Y' /></audio><img src='ep,jpg' alt='image'></img>",
         name: "DEATH-DODGE BALL"
     },
     {
         number: "2",
-        prompt: "Somehow you’ve found yourself enrolled by the army, and now you find yourself in a ditch. You’ve been crawling around for weeks, and after some enemy fire, realize you’ve been separated from your entire force. It isn’t clear what side won or lost, but you know it’s time to get inside. You crawl to the nearest structure, which is just barely standing. You clear the room and set your things down to take a breath, and walk to the sink to see if it’s working. That’s when the door on the other side of the room opens - it’s an enemy soldier! Play a game of Pong War to see who survives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio>",
+        prompt: "Somehow you’ve found yourself enrolled by the army, and now you find yourself in a ditch. You’ve been crawling around for weeks, and after some enemy fire, realize you’ve been separated from your entire force. It isn’t clear what side won or lost, but you know it’s time to get inside. You crawl to the nearest structure, which is just barely standing. You clear the room and set your things down to take a breath, and walk to the sink to see if it’s working. That’s when the door on the other side of the room opens - it’s an enemy soldier! Play a game of Pong War to see who survives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='pad titleF'><source src='https://cdn.fbsbx.com/v/t59.3654-21/53238544_656295544840323_3697924570787872768_n.mp3/dEATH-MATCH-REAL-REAL.mp3?_nc_cat=102&_nc_ht=cdn.fbsbx.com&oh=5e5508a8f8fb8e2257dc874fa7c2a2dc&oe=5CA1FD2A&dl=1&fbclid=IwAR3UplkQKqTCEyIcOuXywaOzYFE6HAreki1dwHKjO8ZMHl54ZIcJA6E-V1Y' /></audio>",
         name: "DEATH-PONG WAR",
     },
     {
         number: "3",
-        prompt: "This life, you’re the financial advisor to a brutal dictator. It’s been a surprisingly boring life in which you’ve never had any competition, until today… when a captured CPA sits down in front of you. The dictator walks in, and makes it very clear that he’s only planning on keeping one of you. He pulls out his pistol and tells you both that whoever can find a way to fund his new missile system will stay alive. You’ll solve a math problem in your head to find out who lives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio>",
+        prompt: "This life, you’re the financial advisor to a brutal dictator. It’s been a surprisingly boring life in which you’ve never had any competition, until today… when a captured CPA sits down in front of you. The dictator walks in, and makes it very clear that he’s only planning on keeping one of you. He pulls out his pistol and tells you both that whoever can find a way to fund his new missile system will stay alive. You’ll solve a math problem in your head to find out who lives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='pad titleF'><source src='https://cdn.fbsbx.com/v/t59.3654-21/53238544_656295544840323_3697924570787872768_n.mp3/dEATH-MATCH-REAL-REAL.mp3?_nc_cat=102&_nc_ht=cdn.fbsbx.com&oh=5e5508a8f8fb8e2257dc874fa7c2a2dc&oe=5CA1FD2A&dl=1&fbclid=IwAR3UplkQKqTCEyIcOuXywaOzYFE6HAreki1dwHKjO8ZMHl54ZIcJA6E-V1Y' /></audio>",
         name: "DEATH-MATHEMATICAL",
     },
     {
