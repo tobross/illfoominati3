@@ -238,7 +238,7 @@ var world = [
         air: {
             critSuccess: "X<br>",
             success: "(11+)<br>Instead of focusing on what’s in front of you you choose to look inwards. A soothing breeze courses through your body as you close your eyes and attempt to see the big picture.  You were at a bar… you had something to drink… is that all you had? No, there was something else.  Your friends had given you something, though you can’t entirely remember exactly what it was. You turn away from the mirror, rubbing your heavy eyes, and crash into the featherly bliss of your bed.<br>",
-            failure: "(1-10)<br>‘God - what is happening!?’, you ask yourself as you attempt to look inwards. You close your eyes and rub them, only succeeding in agitating them more. A breeze brushes along your skin, and you think. ‘that darn AC really must have been on all day.’ You open your eyes, assuming that your doppelganger would disappear. Instead  you now find yourself trapped inside a mirrored cage.  It takes you a second for you to realize that you have somehow moved into an entirely new dimension, switching places with the doppelganger.  It is now taking on your everyday life as you can but watch through this strange oracular portal.  Eventually you manage to break out, but who knows how long it took you to figure that out.<br>",
+            failure: "(1-10)<br>‘God - what is happening!?’, you ask yourself as you attempt to look inwards. You close your eyes and rub them, only succeeding in agitating them more. A breeze brushes along your skin, and you think. ‘that darn AC really must have been on all day.’ You open your eyes, assuming that your doppelganger would disappear. Instead  you now find yourself trapped inside a mirrored cage.  It takes you a second for you to realize that you have somehow moved into an entirely new dimension, switching places with the doppelganger.  It is now taking on your everyday life as you can but watch through this strange oracular portal.  Eventually you manage to break out, but who knows how long it took you to figure that out.<br>(GAME OVER)<br>",
             critFail: "X"
         },
         earth: {
@@ -449,6 +449,7 @@ var another = [
     }
 ];
 
+
 switch(window.location.pathname){
     case "/illfoominati3/ovs.html":
     case "/C:/Users/tobro/sideProjects/illfoominati3/ovs.html":
@@ -470,6 +471,10 @@ switch(window.location.pathname){
     ova();
     console.log("One Vs. Another")
     console.log(window.location.pathname);
+    break;
+    case "/illfoominati3/riddles.html":
+    case "/C:/Users/tobro/sideProjects/illfoominati3/riddles.html":
+    case "/riddles.html":
     break;
     default: 
     console.log("Switch Default");
@@ -604,6 +609,539 @@ $(".advcard").on("click", ".btn", function(){
     }
 })
 };
+
+$(".riddle").on("click", function(){
+    var riddles = [
+        {
+            riddle: "It is greater than God and more evil than the devil. The poor have it, the rich need it and if you eat it you’ll die. What is it?",
+            number: "1",
+            answer: "Nothing."
+        },
+        {
+            riddle: "It walks on four legs in the morning, two legs at noon and three legs in the evening. What is it?",
+            number: "2",
+            answer: "Man"
+        },
+        {
+            riddle: "I am the beginning of the end, and the end of time and space. I am essential to creation, and I surround every place. What am I?",
+            number: "3",
+            answer: "The letter e. End, timE, spacE, Every placE"
+        },
+        {
+            riddle: "What always runs but never walks, often murmurs, never talks, has a bed but never sleeps, has a mouth but never eats?",
+            number: "4",
+            answer: "A river."
+        },
+        {
+            riddle: "I never was, am always to be. No one ever saw me, nor ever will. And yet I am the confidence of all, To live and breath on this terrestrial ball. What am I?",
+            number: "5",
+            answer: "Tomorrow or the future."
+        },
+        {
+            riddle: "At night they come without being fetched.<br>By day they are lost without being stolen.<br>What are they?",
+            number: "6",
+            answer: "The stars."
+        },
+        {
+            riddle: "What is in seasons, seconds, centuries and minutes but not in decades, years or days?",
+            number: "7",
+            answer: "The letter ‘n’."
+        },
+        {
+            riddle: "The one who makes it, sells it. The one who buys it, never uses it. The one that uses it never knows that he’s using it. What is it?",
+            number: "8",
+            answer: "A coffin"
+        },
+        {
+            riddle: "The more you have of it, the less you see. What is it?",
+            number: "9",
+            answer: "Darkness"
+        },
+        {
+            riddle: "What has a head, a tail, is brown, and has no legs?",
+            number: "10",
+            answer: "A penny."
+        },
+        {
+            riddle: "What English word has three consecutive double letters?",
+            number: "11",
+            answer: "Bookkeeper."
+        },
+        {
+            riddle: "What’s black when you get it, red when you use it, and white when you’re all through with it?",
+            number: "12",
+            answer: "Charcoal"
+        },
+        {
+            riddle: "You throw away the outside and cook the inside. Then you eat the outside and throw away the inside. What did you eat?",
+            number: "13",
+            answer: "An ear of corn."
+        },
+        {
+            riddle: "I am always hungry,<br>I must always be fed,<br>The finger I touch,<br>Will soon turn red",
+            number: "14",
+            answer: "Fire"
+        },
+        {
+            riddle: "Ripped from my mother’s womb,<br>Beaten and burned,<br>I become a blood thirsty killer.<br>What am I?",
+            number: "15",
+            answer: "Iron ore"
+        },
+        {
+            riddle: "I know a word of letters three. Add two, and fewer there will be!",
+            number: "16",
+            answer: "Few"
+        },
+        {
+            riddle: "I give you a group of three. One is sitting down, and will never get up. The second eats as much as is given to him, yet is always hungry. The third goes away and never returns.",
+            number: "17",
+            answer: "Stove, fire, smoke"
+        },
+        {
+            riddle: "I have four legs but no tail. Usually I am heard only at night. What am I?",
+            number: "18",
+            answer: "A frog"
+        },
+        {
+            riddle: "Half-way up the hill, I see thee at last, lying beneath me with thy sounds and sights — A city in the twilight, dim and vast, with smoking roofs, soft bells, and gleaming lights.",
+            number: "19",
+            answer: "The past. (Longfellow)"
+        },
+        {
+            riddle: "When young, I am sweet in the sun.<br>When middle-aged, I make you gay.<br>When old, I am valued more than ever.",
+            number: "20",
+            answer: "Wine"
+        },
+        {
+            riddle: "All about, but cannot be seen,<br>Can be captured, cannot be held,<br>No throat, but can be heard.",
+            number: "21",
+            answer: "Wind"
+        },
+        {
+            riddle: "If you break me<br>I do not stop working,<br>If you touch me<br>I may be snared,<br>If you lose me<br>Nothing will matter.",
+            number: "22",
+            answer: "Your heart"
+        },
+        {
+            riddle: "Until I am measured I am not known,<br>Yet how you miss me when I have flown.",
+            number: "23",
+            answer: "Time"
+        },
+        {
+            riddle: "I drive men mad<br>For love of me,<br>Easily beaten,<br>Never free.",
+            number: "24",
+            answer: "Gold"
+        },
+        {
+            riddle: "When set loose<br>I fly away,<br>Never so cursed<br>As when I go astray.",
+            number: "25",
+            answer: "A fart"
+        },
+        {
+            riddle: "Lighter than what I am made of,<br>More of me is hidden Than is seen.",
+            number: "26",
+            answer: "Iceberg"
+        },
+        {
+            riddle: "Each morning I appear to lie at your feet,<br>All day I will follow no matter how fast you run,<br>Yet I nearly perish in the midday sun.",
+            number: "27",
+            answer: "Shadow"
+        },
+        {
+            riddle: "My life can be measured in hours,<br>I serve by being devoured.<br>Thin, I am quick<br>Fat, I am slow<br>Wind is my foe.",
+            number: "28",
+            answer: "A candle"
+        },
+        {
+            riddle: "I am seen in the water if seen in the sky,<br>I am in the rainbow, a jay’s feather,and lapis lazuli.",
+            number: "29",
+            answer: "Blue"
+        },
+        {
+            riddle: "Glittering points that downward thrust,<br>Sparkling spears that never rust.",
+            number: "30",
+            answer: "Icicle"
+        },
+        {
+            riddle: "You heard me before, yet you hear me again,<br>Then I die, ’till you call me again.",
+            number: "31",
+            answer: "An echo"
+        },
+        {
+            riddle: "Three lives have I.<br>Gentle enough to soothe the skin,<br>Light enough to caress the sky,<br>Hard enough to crack rocks.",
+            number: "32",
+            answer: "Water"
+        },
+        {
+            riddle: "At the sound of me, men may dream or stamp their feet,<br>At the sound of me, women may laugh or sometimes weep.",
+            number: "33",
+            answer: "Music"
+        },
+        {
+            riddle: "What does man love more than life<br>Fear more than death or mortal strife<br>What the poor have, the rich require,<br>and what contented men desire,<br>What the miser spends and the spendthrift saves<br>And all men carry to their graves?",
+            number: "34",
+            answer: "Nothing"
+        },
+        {
+            riddle: "I build up castles.<br>I tear down mountains.<br>I make some men blind,<br>I help others to see.<br>What am I?",
+            number: "35",
+            answer: "Sand"
+        },
+        {
+            riddle: "Two in a corner,<br>1 in a room,<br>0 in a house,<br>but 1 in a shelter.<br>What am I?",
+            number: "36",
+            answer: "The letter r."
+        },
+        {
+            riddle: "Five hundred begins it, five hundred ends it,<br>Five in the middle is seen;<br>First of all figures, the first of all letters,<br>Take up their stations between.<br>Join all together, and then you will bring<br>Before you the name of an eminent king.",
+            number: "37",
+            answer: "DAVID (Roman numerals)"
+        },
+        {
+            riddle: "It cannot be seen, it weighs nothing, but when put into a barrel, it makes it lighter. What is it?",
+            number: "38",
+            answer: "A hole"
+        },
+        {
+            riddle: "How far will a blind dog walk into a forest?",
+            number: "39",
+            answer: "Halfway. After he gets halfway, he’s walking out of the forest."
+        },
+        {
+            riddle: "What happens when you throw a yellow rock into a purple stream?",
+            number: "40",
+            answer: "It makes a splash."
+        },
+        {
+            riddle: "What starts with a T, ends with a T, and has T in it?",
+            number: "41",
+            answer: "A teapot"
+        },
+        {
+            riddle: "As I went over London Bridge I met my sister Jenny,<br>I broke her neck and drank her blood and left her standing empty.",
+            number: "42",
+            answer: "A bottle of gin"
+        },
+        {
+            riddle: "Whoever makes it, tells it not.<br>Whoever takes it, knows it not.<br>Whoever knows it, wants it not",
+            number: "43",
+            answer: "Counterfeit money"
+        },
+        {
+            riddle: "I am, in truth, a yellow fork from tables in the sky,<br>By inadvertent fingers dropped the awful cutlery.<br>Of mansions never quite disclosed and never quite concealed<br>The apparatus of the dark to ignorance revealed.",
+            number: "44",
+            answer: "Lightning"
+        },
+        {
+            riddle: "You saw me where I never was and where I could not be. And yet within that very place, my face you often see. What am I?",
+            number: "45",
+            answer: "A reflection"
+        },
+        {
+            riddle: "Say my name and I disappear. What am I?",
+            number: "46",
+            answer: "Silence"
+        },
+        {
+            riddle: "What is it that after you take away the whole, some still remains?",
+            number: "47",
+            answer: "Wholesome"
+        },
+        {
+            riddle: "A box without hinges, lock or key, yet golden treasure lies within. What is it?",
+            number: "48",
+            answer: "An egg"
+        },
+        {
+            riddle: "Forward I’m heavy, but backwards I’m not. What am I?",
+            number: "49",
+            answer: "Ton"
+        },
+        {
+            riddle: "Why doesn’t a mountain covered with snow catch cold?",
+            number: "50",
+            answer: "Because it has a snowcap"
+        },
+        {
+            riddle: "I can be long, or I can be short.<br>I can be grown, and I can be bought.<br>I can be painted, or left bare.<br>I can be round, or square.<br>What am I?",
+            number: "51",
+            answer: "A fingernail"
+        },
+        {
+            riddle: "One by one we fall from heaven down into the depths of past,<br>And our world is ever upturned so that yet some time we’ll last.",
+            number: "52",
+            answer: "Sands in an hourglass"
+        },
+        {
+            riddle: "I drift forever with the current down these long canals they’ve made,<br>Tame, yet wild, I run elusive Multitasking to your aid.<br>Before I came, the world was darker, colder, sometimes, rougher, true<br>But though I might make living easy, I’m good at killing people too.",
+            number: "53",
+            answer: "Electricity (or lightning)"
+        },
+        {
+            riddle: "Reaching stiffly for the sky,<br>I bare my fingers when it’s cold<br>In warmth I wear an emerald glove<br>And in between I dress in gold",
+            number: "54",
+            answer: "A deciduous tree"
+        },
+        {
+            riddle: "Kings and queens may cling to power and the jester’s got his call,<br>But, as you may all discover, the common one outranks them all.",
+            number: "55",
+            answer: "An ace (in a deck of cards)"
+        },
+        {
+            riddle: "Every dawn begins with me<br>At dusk I’ll be the first you see<br>And daybreak couldn’t come without<br>What midday centers all about<br>Daises grow from me, I’m told<br>And when I come, I end all cold<br>But in the sun I won’t be found<br>Yet still, each day I’ll be around.",
+            number: "56",
+            answer: "The letter d."
+        },
+        {
+            riddle: "Kings and lords and christians raised them<br>Since they stand for higher powers<br>Yet few of them would stand, I’m certain,<br>If women ruled this world of ours.",
+            number: "57",
+            answer: "A tower."
+        },
+        {
+            riddle: "Soft and fragile is my skin, I get my growth in mud<br>I’m dangerous as much as pretty, for if not careful, I draw blood.",
+            number: "58",
+            answer: "A thorn"
+        },
+        {
+            riddle: "Three brothers share a family sport: A non-stop marathon<br>The oldest one is fat and short And trudges slowly on<br>The middle brother’s tall and slim And keeps a steady pace<br>The youngest runs just like the wind, a speeding through the race<br>“He’s young in years, we let him run,” the other brothers say<br>“‘Cause though he’s surely number one, he’s second, in a way.”",
+            number: "59",
+            answer: "The hands on a clock (hour, minute, second).1"
+        },
+        {
+            riddle: "It’s true I bring serenity,<br>And hang around the stars<br>But yet I live in misery;<br>You’ll find me behind bars<br>With thieves and villains I consort<br>In prison I’ll be found<br>But I would never go to court,<br>Unless there’s more than one",
+            number: "60",
+            answer: "The letter s"
+        },
+        {
+            riddle: "I am a box that holds keys without locks, yet they can unlock your soul. What am I?",
+            number: "61",
+            answer: "A piano."
+        },
+        {
+            riddle: "There once was a strange man who loved wordplay, he had a very important and successful business that would take insect shipments from all across the world and distribute them to zoos across the US.",
+            number: "62",
+            answer: "ImportANT"
+        },
+        {
+            riddle: "There is one word that stands the test of time and holds fast to the center of everything. Though everyone will try at least once in their life to move around this word, but in fact, unknowingly, they use it every moment of the day. Young or old, awake or in sleep, human or animal, this word stands fast. It belongs to everyone, to all living things, but no one can master it. The word is?",
+            number: "63",
+            answer: "Gravity"
+        },
+        {
+            riddle: "My days are in the summer<br>When you’ll eat me when I’m hot<br>In fact I’ll even eat myself<br>Where battles tough are fought<br>But when you find me in a fight<br>‘Twill be high in the sky<br>And if you catch me napping<br>I suggest you let me lie<br>When you’re bad come to my house<br>From Ma get thoughts profound<br>Am I big or am I small?<br>Some say I’m just a pound.",
+            number: "64",
+            answer: "Dog. Dog days, hot dog, dog pound, dog fight."
+        },
+        {
+            riddle: "My first is twice in apple but not once in tart. My second is in liver but not in heart. My third is in giant and also in ghost. Whole I’m best when I am roast. What am I?",
+            number: "65",
+            answer: "A pig."
+        },
+        {
+            riddle: "What gets wetter as it dries?",
+            number: "66",
+            answer: "A towel"
+        },
+        {
+            riddle: "This is a most unusual paragraph. How quickly can you find out what is so unusual about it? It looks so ordinary you’d think nothing was wrong with it – and in fact, nothing is wrong with it. It is unusual though. Why? Study it, think about it, and you may find out. Try to do it without coaching. If you work at it for a bit it will dawn on you. So jump to it and try your skill at figuring it out. Good luck – don’t blow your cool!",
+            number: "67",
+            answer: "The most common letter in the English language, the letter e, is not found in the entire paragraph"
+        },
+        {
+            riddle: "When you went into the woods you got me.<br>You hated me yet you wanted to find me.<br>You went home with me cause you couldn’t find me<br>What was it?",
+            number: "68",
+            answer: "A splinter"
+        },
+        {
+            riddle: "An iron horse with a flaxen tail.<br>The faster the horse runs,<br>the shorter his tail becomes.<br>What is it?",
+            number: "69",
+            answer: "A needle and thread."
+        },
+        {
+            riddle: "You have to travel far before you turn it over. What is it?",
+            number: "70",
+            answer: "An odometer"
+        },
+        {
+            riddle: "A mile from end to end, yet as close to as a friend. A precious commodity, freely given. Seen on the dead and on the living. Found on the rich, poor, short and tall, but shared among children most of all. What is it?",
+            number: "71",
+            answer: "A smile."
+        },
+        {
+            riddle: "I’m full of holes, yet I’m full of water. What am I?",
+            number: "72",
+            answer: "A sponge"
+        },
+        {
+            riddle: "Four of us are in your field<br>But our differences keep us at yield<br>First, a one that is no fool<br>Though he resembles a gardener’s tool<br>Next, one difficult to split in two<br>And a girl once had one as big as her shoe<br>Then, to the mind, one’s a lovely bonder<br>And truancy makes it grow fonder<br>Last, a stem connecting dots of three<br>Knowing all this, what are we?",
+            number: "73",
+            answer: "(((The four suits in a deck of standard playing cards.))) The Spade is a gardener’s tool. The Diamond is the hardest gem to break. “Little Girl and Queen” is a Mother Goose rhyme, in which the Queen gave the girl a large diamond for picking the Queen some roses.The Heart bonds with the mind to form love. Absence makes the heart grow fonder.The Club, or Clover, is three dots connected around a stem."
+        },
+        {
+            riddle: "I am a word of meanings three.<br>Three ways of spelling me there be.<br>The first is an odour, a smell if you will.<br>The second some money, but not in a bill.<br>The third is past tense, a method of passing things on or around.<br>Can you tell me now, what these words are, that have the same sound?",
+            number: "74",
+            answer: "Scent, cent, sent"
+        },
+        {
+            riddle: "It’s red, blue, purple and green, no one can reach it, not even the queen. What is it?",
+            number: "75",
+            answer: "A rainbow."
+        },
+        {
+            riddle: "What question can you never honestly answer yes to?",
+            number: "76",
+            answer: "Are you asleep? (or dead)"
+        },
+        {
+            riddle: "What has a neck and no head, two arms but no hands?",
+            number: "77",
+            answer: "A shirt (or sweater, jacket etc)"
+        },
+        {
+            riddle: "I live in water<br>If you cut my head I’m at your door,<br>If you cut my tail I’m fruit,<br>If you cut both I’m on your head<br>What am I?",
+            number: "78",
+            answer: "A pearl. They’re found underwater. Removing the head (p) leaves Earl, a guy who could be at your door. Removing the tail (l) leaves pear, a fruit and if you cut both off you’re left with ear, which is with you because it’s attached to your head"
+        },
+        {
+            riddle: "Feed me and I live, give me drink and I die. What am I?",
+            number: "79",
+            answer: "Fire."
+        },
+        {
+            riddle: "What begins and has no end? What is the ending of all that begins?",
+            number: "80",
+            answer: "Death"
+        },
+        {
+            riddle: "A man went to the hardware store to buy items for his house.<br>1 would cost $.25<br>12 would cost $.50<br>122 would cost $.75<br>When he left the store he had spent $.75, what did he buy?",
+            number: "81",
+            answer: "House numbers"
+        },
+        {
+            riddle: "What makes a loud noise when changing its jacket, becomes larger but weighs less?",
+            number: "82",
+            answer: "Popcorn"
+        },
+        {
+            riddle: "The more you take, the more you leave behind.",
+            number: "83",
+            answer: "Footsteps"
+        },
+        {
+            riddle: "I am a word of 5 letters and people eat me. If you remove the first letter I become a form of energy. Remove the first two and I’m needed to live. Scramble the last 3 and you can drink me. What am I?",
+            number: "84",
+            answer: "Wheat, heat, eat, tea"
+        },
+        {
+            riddle: "Before any changes I’m a garlic or spice. My first is altered and I’m a hand-warming device. My second is changed and I’m trees in full bloom. The next letter change makes a deathly old tomb. Change the fourth to make a fruit of the vine. Change the last for a chart plotted with lines. What was I? What did I become? What did I turn out to be?",
+            number: "85",
+            answer: "Clove, glove, grove, grave, grape, graph"
+        },
+        {
+            riddle: "A woman shoots her husband, then holds him under water for five minutes. Finally, she hangs him. Five minutes later they enjoy a wonderful dinner together. How can this be?",
+            number: "86",
+            answer: "She took a photo of him and developed it in the dark room."
+        },
+        {
+            riddle: "Remove six letters from this sequence to reveal a familiar English word.<br><br>BSAINXLEATNTEARS",
+            number: "87",
+            answer: "BANANAS (removed SIX LETTERS)"
+        },
+        {
+            riddle: "Alive without breath,<Br>As cold as death,<br>Clad in mail never clinking,<br>Never thirsty, ever drinking",
+            number: "88",
+            answer: "A fish"
+        },
+        {
+            riddle: "With thieves I consort,<br>With the vilest, in short,<br>I’m quite at ease in depravity;<br>Yet all divines use me,<br>And savants can’t lose me,<br>For I am the center of gravity.",
+            number: "89",
+            answer: "The letter V"
+        },
+        {
+            riddle: "Until I am measured<br>I am not known,<br>Yet how you miss me<br>When I have flown.",
+            number: "90",
+            answer: "Time"
+        },
+        {
+            riddle: "I never was, am always to be,<br>No one ever saw me, nor ever will<br>And yet I am the confidence of all<br>To live and breathe on this terrestrial ball.",
+            number: "91",
+            answer: "Tomorrow"
+        },
+        {
+            riddle: "Alive without breath,<br>As cold as death,<br>Never thirsty, Ever drinking,<br>Clad in mail, Never clinking,<br>Drowns on dry land,<br>Thinks an island, Is a mountain,<br>Thinks a fountain, Is a puff of air.",
+            number: "92",
+            answer: "A fish"
+        },
+        {
+            riddle: "This thing all things devours:<br>Birds, beasts, trees, flowers;<br>Gnaws iron, bites steel;<br>Grinds hard stones to meal;<br>Slays king, ruins town,<br>And beats high mountain down.",
+            number: "93",
+            answer: "Time"
+        },
+        {
+            riddle: "The cost of making only the maker knows,<br>Valueless if bought, but sometimes traded.<br>A poor man may give one as easily as a king.<br>When one is broken pain and deceit are assured.",
+            number: "94",
+            answer: "Promise"
+        },
+        {
+            riddle: "Who makes it, has no need of it.<br>Who buys it, has no use for it.<br>Who uses it can neither see nor feel it.",
+            number: "95",
+            answer: "A coffin"
+        },
+        {
+            riddle: "I build up castles. I tear down mountains.<br>I make some men blind,<br>I help others to see.<br>What am I?",
+            number: "96",
+            answer: "Sand"
+        },
+        {
+            riddle: "Glittering points that downward thrust,<br>Sparkling spears that never rust.",
+            number: "97",
+            answer: "Icicle"
+        },
+        {
+            riddle: "Die without me, Never thank me.<br>Walk right through me, never feel me.<br>Always watching, never speaking.<br>Always lurking, never seen.",
+            number: "98",
+            answer: "Air"
+        },
+        {
+            riddle: "Pregnant every time you see her, yet she never will give birth.",
+            number: "99",
+            answer: "Full Moon"
+        },
+        {
+            riddle: "I go around in circles,<br>But always straight ahead<br>Never complain,<br>No matter where I am led.",
+            number: "100",
+            answer: "Wheel"
+        }
+    ];
+        var random = Math.floor(Math.random(1) * 100);
+        for (var i=0; i<riddles.length; i++){
+
+            var pImg = "<div><h3 class='card-title'><span class='number'>"+riddles[i].number+": </span></div>"
+    
+            var riddleCard = $("<div class='card advcard'>"+pImg+
+            "<div class='card-body'><ul><li>RIDDLE: "+riddles[i].riddle+"</li><img class='divider' src='assets/images/divider.png' alt='divider'><li>ANSWER: "+riddles[i].answer+"</li></ul></div></div>");
+    
+            if (parseInt(riddles[i].number)===random){
+                $(".promptBox").html(riddleCard);
+            }
+        }
+    });
+
+riddles = function(){
+    var random = Math.floor(Math.random(1) * 100);
+
+    for (i=0; i<riddles.length; i++){
+
+        var pImg = "<div><h3 class='card-title'><span class='number'>"+one[i].number+": </span></div>"
+
+        var riddleCard = $("<div class='card advcard'>"+pImg+
+        "<div class='card-body'><ul><li>"+riddles[i].riddle+"</li><li>"+riddles[i].answer+"</li></ul></div></div>");
+
+        if (parseInt(riddles[i].number)===random){
+            $(".promptBox").prepend(riddleCard);
+        }
+    }
+}
 
 // $(document).ready(function(){
 //     console.log(window.location.pathname)
