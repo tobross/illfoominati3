@@ -1126,25 +1126,3 @@ $(".riddle").on("click", function(){
             }
         }
     });
-
-riddles = function(){
-    var random = Math.floor(Math.random(1) * 100);
-
-    for (i=0; i<riddles.length; i++){
-
-        var pImg = "<div><h3 class='card-title'><span class='number'>"+one[i].number+": </span></div>"
-
-        var riddleCard = $("<div class='card advcard'>"+pImg+
-        "<div class='card-body'><ul><li>"+riddles[i].riddle+"</li><li>"+riddles[i].answer+"</li></ul></div></div>");
-
-        if (parseInt(riddles[i].number)===random){
-            $(".promptBox").prepend(riddleCard);
-        }
-    }
-}
-
-// $(document).ready(function(){
-//     console.log(window.location.pathname)
-// });
-
-{/* <img class='advimg' src='"+world[i].image+"'alt='advimg'></img> */}
