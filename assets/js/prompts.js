@@ -197,7 +197,7 @@ var world = [
             critSuccess: "(8+)<br>It takes some courage, but you decide that this is good for the both of you, and you’re doing your best to have a positive attitude about the whole thing. It’s quieter than you thought it would be, but you have a short conversation during your hunt about how important being connected to nature is. You’re caught off guard with how sacred your father-in-law treats the land, his hunting nest, and the animals he is searching for.<br><br>When the time finally comes and you spot an animal, you’re already engaged in the magic of the hunt. The fire spirit takes control of your arms and guides your bullet to a clean and quick kill. Your hunting partner is impressed, as he didn’t even see the animal, and it was a good distance away. He’ll tell the story of your kill for generations to come.<br><br>(EXTRA EXP + TITLE: MASTER OF THE HUNT)<br>",
             success: "X<br>",
             failure: "(1-7)<br>It takes some courage, but you decide that this is good for the both of you, and you’re doing your best to have a positive attitude about the whole thing. It’s quieter than you thought it would be, but you have a short conversation during your hunt about how important being connected to nature is. You’re caught off guard with how sacred your father-in-law treats the land and his hunt.<br><br>You’re more excited about this than you thought you’d be - which turns out to be a terrible curse. When you finally spot a deer walking within range, you pull up your gun to shoot. He barely notices until you fire, but you miss your mark and scare off the deer. Your father-in-law is quietly disappointed, which never changes for the rest of your life.<br>",
-            critFail: "<br>"
+            critFail: "X<br>"
         },
         water: {
             critSuccess: "(15+)<br>You’re been laying in wait for several hours now, mostly in the quiet beauty of nature, before a deer wanders into range. He taps you on the shoulder and points at it, suggesting that you should take the shot. You do as he taught you, squeezing the rifle in tight to your shoulder and pulling the trigger. You weren’t even really aiming at the creature, but it catches the creature in the hip and it staggers to the ground.<br><br>You both hurry up to it, and quickly note that it’s writhing in pain and confusion. The intensity of death’s presence courses through your body, but the spirit of the water helps you to control it. Your father in law hands you a large knife, and you end it without a second thought. You skin and clean the animal right there, feeling strangely grateful for the creature.<br>The experience brings you and your father-in-law much closer, making both you and your partner’s lives much easier. While you never go hunting with him again, you enjoy many natural outings together and things are smooth and lovely.<br>(EXTRA EXP + TITLE: LUCKY SHOT)<br>",
@@ -206,9 +206,9 @@ var world = [
             critFail: "(1-14)<br>You’re been laying in wait for several hours now, mostly in the quiet beauty of nature, before a deer wanders into range. He taps you on the shoulder and points at it, suggesting that you should take the shot. You do as he taught you, squeezing the rifle in tight to your shoulder and pulling the trigger. You weren’t even really aiming at the creature, but it catches the creature in the hip and it staggers awkwardly to the ground.<br><br>You both hurry up to it, and quickly note that it’s writhing in pain and confusion. The intensity of death’s presence courses through your body, and the spirit of water is not strong enough to keep it from clouding your judgement. Your father in law gets ready to pull out a knife, but you panic. Putting your gun to the creature’s skull, you pull the trigger to end it’s misery - but you don’t notice the hard rock it’s laying on. You aren’t sure if the bullet ricocheted off of the animal or the rock, just that a sharp pain is coursing through your mid section. The rest of your short life is cloudy and muddled, as you never even make it to the hospital.<br><br></br>(GAME OVER)"
         },
         air: {
-            critSuccess: "X<br>",
-            success: "<br>",
-            failure: "(1-9)<br>You try to dig into the trauma behind why this individual is so deeply attached to you. First it’s all about their big brother, then it’s about their mom, then their bully from middle school. Without thinking about it, you tell them that maybe they should think about going to therapy. They stop dead in their tracks and look at you with a dark and strange gaze. They didn’t like that at all.  They turn tail and leave for the night - but it isn’t the last you see of them.<br><br>Next month, you spot them at another conference, but they aren’t paying you any mind. It’s strange, you’re so used to them staring you down. You’re rolling your suitcase out to the car when you hear the screeching of tires, and turn to see him barreling toward you in a beat up volkswagen. The last thing you see are the headlights of his car, as he runs you down in spite.<br>",
+            critSuccess: "(10+)<br>As the hunt starts, you notice a strange and wonderful zen aura coming from your Father in law. Even though you’re holding guns and are about to kill something, there is a peace which permeates through the whole forest. After four hours and no animals in sight, you decide to head back to camp and have some lunch. You never actually go back out hunting again because the conversation is so good! You’re both lovers of nature and it’s a strong point for that relationship for the rest of your life.<Br>(EXTRA EXP + TITLE: BEFRIENDER OF THE FATHER IN LAW)<br>",
+            success: "X<br>",
+            failure: "(1-9)<br>As the hunt starts, you notice a strange and wonderful zen aura coming from your Father in law. Even though you’re holding guns and are about to kill something, there is a peace which permeates through the whole forest. After four hours and no animals in sight, you decide to head back to camp and have some lunch. You keep bringing up how peaceful he seems, and it absolutely triggers him. Whatever you were sense before completely disappears, and it ruins the whole camping trip.<br>",
             critFail: "X"
         },
         earth: {
@@ -225,35 +225,35 @@ var world = [
         name: "The Shifting Mirror",
         period: "",
         fire: {
-            critSuccess: "(recommended hardest)<br>You’re hardly hesitate as you attempt to swing with your leg at your mirror and instead are met by the hand of your doppelganger which eerily slips out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again.<br><br>You assume a different pose opposite your opponent and take a deep breath, not falling  for your doppelganger’s taunt. Instead, you urge it to attack you by making the same motion.  The doppelganger charges, but despite looking just like you, it doesn’t appear to be able to keep up with your honed skills.  In time you manage to grab onto its hair, and sink your fingers into its scalp. With a resounding heave you shove the creature back into the mirror where it will remain, trapped for all eternity - never to bother you and yo’ ghostbustin’ skills again.<br><br>(EXTRA EXP + TITLE: GHOSTBUSTER)<br>",
+            critSuccess: "(18+)<br>You’re hardly hesitate as you attempt to swing with your leg at your mirror and instead are met by the hand of your doppelganger which eerily slips out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again.<br><br>You assume a different pose opposite your opponent and take a deep breath, not falling  for your doppelganger’s taunt. Instead, you urge it to attack you by making the same motion.  The doppelganger charges, but despite looking just like you, it doesn’t appear to be able to keep up with your honed skills.  In time you manage to grab onto its hair, and sink your fingers into its scalp. With a resounding heave you shove the creature back into the mirror where it will remain, trapped for all eternity - never to bother you and yo’ ghostbustin’ skills again.<br><br>(EXTRA EXP + TITLE: GHOSTBUSTER)<br>",
             success: "X<br>",
-            failure: "(XXX)<br>“What the hell is going on!?” You scream and burst into action as a fire lights your every muscle.  You give a roundhouse kick to your own mirror, causing it to shatter into a thousand pieces.  As your rage settles, you feel a warmth surround you as the temperature in the room seems to return to normal.  You have a slight cut from the initial kick, but nothing too serious.<br><br>As you’re cleaning up the shattered glass, you receive a text from your friend, “DUUUUDE - that shit we did. Man, I’m totalling wiggin’ out on it.” You don’t bother responding as you’re more irritated about the broken mirror.  You open your trash can lid and toss out the shattered remains of that whole experience into the garbage, stating out loud, “Ghosts aren’t fucking  real.”<br>",
-            critFail: "(XXX)<br>A fire burns into you lithe form. You attempt to swing your leg at your mirror and instead are met by the hand of your doppelganger, eerily slipping out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again. With a howl you attack, but are instantaneously overmatched as it mirrors your technique, blow for blow. It takes time, but you slowly tire. Eventually it scores a hit that you are unable to come back from and the world slowly turns to darkness."
+            failure: "(11-17)<br>“What the hell is going on!?” You scream and burst into action as a fire lights your every muscle.  You give a roundhouse kick to your own mirror, causing it to shatter into a thousand pieces.  As your rage settles, you feel a warmth surround you as the temperature in the room seems to return to normal.  You have a slight cut from the initial kick, but nothing too serious.<br><br>As you’re cleaning up the shattered glass, you receive a text from your friend, “DUUUUDE - that shit we did. Man, I’m totalling wiggin’ out on it.” You don’t bother responding as you’re more irritated about the broken mirror.  You open your trash can lid and toss out the shattered remains of that whole experience into the garbage, stating out loud, “Ghosts aren’t fucking  real.”<br>",
+            critFail: "(1-10)<br>A fire burns into you lithe form. You attempt to swing your leg at your mirror and instead are met by the hand of your doppelganger, eerily slipping out of the shimmering reflection.  You’re in shock as the rest of its body slowly takes shape in the real world, it’s all-knowing smile still shimmering.  It lets go of your limb and assumes a combative stance - the very kung fu stance you learned as a black belt student.  It gives you a curt nod and summons you forward with its index finger, urging you to attack again. With a howl you attack, but are instantaneously overmatched as it mirrors your technique, blow for blow. It takes time, but you slowly tire. Eventually it scores a hit that you are unable to come back from and the world slowly turns to darkness."
         },
         water: {
-            critSuccess: "(recommended harder)<br>A surge of emotion flows through your bloodstream. You simply take three of your fingers and lightly press them against the mirror, attempting to touch the figures face. Instead of feeling the cold glass of your mirror, you feel the soft and gentle skin of your doppelganger’s temples. It’s like touching your own face.<br><br>A long moment passes and a calmness fills the air. You sense that this spirit simply needed a friend - that when they were alive they had needed someone like you in their life.  A feeling passes through you and it suddenly feels like your fingers aren’t touching the dopplegangers face, but your face instead - as if you’re feeling your own forehead by touching the mirror.  With a wide grin you give the faintest of laughs, as the creature turns suddenly into mist, pouring through your fingers to slowly become apart of you.<br><br>‘Maybe ghosts are real after all…’ You can’t help but think to yourself.<br>(EXTRA EXP + TITLE SPEAKER FOR THE DEAD)<br>",
+            critSuccess: "(15+)<br>A surge of emotion flows through your bloodstream. You simply take three of your fingers and lightly press them against the mirror, attempting to touch the figures face. Instead of feeling the cold glass of your mirror, you feel the soft and gentle skin of your doppelganger’s temples. It’s like touching your own face.<br><br>A long moment passes and a calmness fills the air. You sense that this spirit simply needed a friend - that when they were alive they had needed someone like you in their life.  A feeling passes through you and it suddenly feels like your fingers aren’t touching the dopplegangers face, but your face instead - as if you’re feeling your own forehead by touching the mirror.  With a wide grin you give the faintest of laughs, as the creature turns suddenly into mist, pouring through your fingers to slowly become apart of you.<br><br>‘Maybe ghosts are real after all…’ You can’t help but think to yourself.<br>(EXTRA EXP + TITLE SPEAKER FOR THE DEAD)<br>",
             success: "X<br>",
-            failure: "(XXX)<br>You glance into your doppelgangers eyes, into your own eyes. “Please don’t do that…” You warily respond, unsure of exactly what is happening. Your mirrored self looks confused and lost in thought, as if it’s unsure of what to do. You tentatively extend your hands towards the mirror and approach it, in an attempt to dissuade this hostile behavior.<br><br>Your doppelganger looks from the razor to you, and then back to the razor before suddenly fleeing and disappearing from the edges of the mirror. You rush towards it and press your face against the glass in an attempt to see where they went, however you’re unable to see them at all.<br><br>While you’re happy that you survived whatever just occurred, you can’t help but feel that you missed something… something larger than yourself.<br>",
+            failure: "(1-15)<br>You glance into your doppelgangers eyes, into your own eyes. “Please don’t do that…” You warily respond, unsure of exactly what is happening. Your mirrored self looks confused and lost in thought, as if it’s unsure of what to do. You tentatively extend your hands towards the mirror and approach it, in an attempt to dissuade this hostile behavior.<br><br>Your doppelganger looks from the razor to you, and then back to the razor before suddenly fleeing and disappearing from the edges of the mirror. You rush towards it and press your face against the glass in an attempt to see where they went, however you’re unable to see them at all.<br><br>While you’re happy that you survived whatever just occurred, you can’t help but feel that you missed something… something larger than yourself.<br>",
             critFail: "X"
         },
         air: {
             critSuccess: "X<br>",
-            success: "(recommended medium)<br>Instead of focusing on what’s in front of you you choose to look inwards. A soothing breeze courses through your body as you close your eyes and attempt to see the big picture.  You were at a bar… you had something to drink… is that all you had? No, there was something else.  Your friends had given you something, though you can’t entirely remember exactly what it was. You turn away from the mirror, rubbing your heavy eyes, and crash into the featherly bliss of your bed.<br>",
-            failure: "(XXX)<br>‘God - what is happening!?’, you ask yourself as you attempt to look inwards. You close your eyes and rub them, only succeeding in agitating them more. A breeze brushes along your skin, and you think. ‘that darn AC really must have been on all day.’ You open your eyes, assuming that your doppelganger would disappear. Instead  you now find yourself trapped inside a mirrored cage.  It takes you a second for you to realize that you have somehow moved into an entirely new dimension, switching places with the doppelganger.  It is now taking on your everyday life as you can but watch through this strange oracular portal.  Eventually you manage to break out, but who knows how long it took you to figure that out.<br>",
+            success: "(11+)<br>Instead of focusing on what’s in front of you you choose to look inwards. A soothing breeze courses through your body as you close your eyes and attempt to see the big picture.  You were at a bar… you had something to drink… is that all you had? No, there was something else.  Your friends had given you something, though you can’t entirely remember exactly what it was. You turn away from the mirror, rubbing your heavy eyes, and crash into the featherly bliss of your bed.<br>",
+            failure: "(1-10)<br>‘God - what is happening!?’, you ask yourself as you attempt to look inwards. You close your eyes and rub them, only succeeding in agitating them more. A breeze brushes along your skin, and you think. ‘that darn AC really must have been on all day.’ You open your eyes, assuming that your doppelganger would disappear. Instead  you now find yourself trapped inside a mirrored cage.  It takes you a second for you to realize that you have somehow moved into an entirely new dimension, switching places with the doppelganger.  It is now taking on your everyday life as you can but watch through this strange oracular portal.  Eventually you manage to break out, but who knows how long it took you to figure that out.<br>",
             critFail: "X"
         },
         earth: {
-            critSuccess: "(recommended easiest)<br>You feel a rush of your earth spirit fill every pour in your body, as you give the doppelganger that same all-knowing grin.  Crossing your arms over your chest you stand your ground defiantly, which confuses your opponent in the mirror.  Your doppelganger no longer seems as sure of itself, and you can tell that it’s starting to get anxious. A moment passes and its gaze shifts from the razor to you, and then back to the razor.  It yells out a silent howl and stabs itself in the neck. You don’t feel a thing, but it most certainly does, as its hand wobbles on the sink to stabilize, only to stumble and crash its head into the porcelain.  You no longer see its face from your angle, but you do see it’s blood squirting into the air, as it’s hand slides off the sink, never to be seen again.<br><br>‘Fuck you Jon Snow,’ you growl triumphantly, before heading off to into a peaceful sleep to help cure your inevitable hangover.  Ghosts still ain’t real.<br>",
-            success: "(XXX)<br>You put on your best defiant smirk as you cross your arms over your chest, “Ghosts ain’t real, honey.” You tell the creature in front of you, snapping your fingers in a zigzag pattern to give your statement a lil’ pizzazz. Your doppelganger doesn’t really know what to make of your attitude. It pokes the razor at its neck and you also feel a slight poking.  For the rest of your life you seem to have this constant itch there that never seems to go away.<br>",
+            critSuccess: "(12+)<br>You feel a rush of your earth spirit fill every pour in your body, as you give the doppelganger that same all-knowing grin.  Crossing your arms over your chest you stand your ground defiantly, which confuses your opponent in the mirror.  Your doppelganger no longer seems as sure of itself, and you can tell that it’s starting to get anxious. A moment passes and its gaze shifts from the razor to you, and then back to the razor.  It yells out a silent howl and stabs itself in the neck. You don’t feel a thing, but it most certainly does, as its hand wobbles on the sink to stabilize, only to stumble and crash its head into the porcelain.  You no longer see its face from your angle, but you do see it’s blood squirting into the air, as it’s hand slides off the sink, never to be seen again.<br><br>‘Fuck you Jon Snow,’ you growl triumphantly, before heading off to into a peaceful sleep to help cure your inevitable hangover.  Ghosts still ain’t real.<br>",
+            success: "(6-11)<br>You put on your best defiant smirk as you cross your arms over your chest, “Ghosts ain’t real, honey.” You tell the creature in front of you, snapping your fingers in a zigzag pattern to give your statement a lil’ pizzazz. Your doppelganger doesn’t really know what to make of your attitude. It pokes the razor at its neck and you also feel a slight poking.  For the rest of your life you seem to have this constant itch there that never seems to go away.<br>",
             failure: "X<br>",
-            critFail: "(XXX)<br>You give the creature in the mirror a firm smile as you cross your arms defiantly, as if daring it to try. Your doppelganger gives off a silent hysterical laughter as it stabs itself in the neck. You feel a sudden jolt of pain as something pierces the side of your own neck - it’s your freakin’ razor!  You don’t have much time as your arm attempts to stall your fall, but your weight crumples beneath you and dizziness washes over you. You hit your head with a thud and crash onto the floor as blood splatters the shower curtains.<br><br>You see one last image before everything fades to blackness: your doppelganger pulling itself through the mirror and sarcastically smirking down at you, “Ghosts are real, silly.” It’s hysterical laughter now echoing in the chill air.<br>"
+            critFail: "(1-5)<br>You give the creature in the mirror a firm smile as you cross your arms defiantly, as if daring it to try. Your doppelganger gives off a silent hysterical laughter as it stabs itself in the neck. You feel a sudden jolt of pain as something pierces the side of your own neck - it’s your freakin’ razor!  You don’t have much time as your arm attempts to stall your fall, but your weight crumples beneath you and dizziness washes over you. You hit your head with a thud and crash onto the floor as blood splatters the shower curtains.<br><br>You see one last image before everything fades to blackness: your doppelganger pulling itself through the mirror and sarcastically smirking down at you, “Ghosts are real, silly.” It’s hysterical laughter now echoing in the chill air.<br>"
         }
     },
     {
         image: "",
         number: "9",
-        prompt: "",
-        name: "",
+        prompt: "Tires screech. Broken bits of glass fly through the air. You strain and crane your neck to look over to the passenger seat and see a bloody pool forming down your lover’s shirt. Rain water pours in around you. Click. You awaken in a twist of sweaty bed sheets. Fear clings to your fingertips. Shake it off. Another dream. Slide out of bed. Hunger strikes.<br><br>You haven’t made food in days. You look around your ransacked apartment. Bits of paper strewn about. Dirty forks in the sink. “Does any of your recycling actually ever get recycled?” Your daughter asked the last time she came over. It now seems like less of an investigation of the integrity of the recycling contract we make with utility companies and more a matter of your contribution to the field of public health. The latter is probably how she meant it.<br><br>You open the fridge and peer all the way to the back finding mostly condiments and sticky soy sauce splash residue. Don’t put the bottles on their sides. You hear this reminder, almost whispered in your ear. As you hold the fridge door open, you feel a hand land directly on yours. You start and turn around on your heel! Standing there directly in front of you is your lover. It cannot be. They perished in the crash.",
+        name: "Ghost of a Lover",
         period: "",
         fire: {
             critSuccess: "X<br>",
@@ -270,7 +270,7 @@ var world = [
         air: {
             critSuccess: "X<br>",
             success: "X<br>",
-            failure: "X<br>",
+            failure: "(XXX)<br>Suddenly, they vanish and you are alone in the room, another hallicination brought on by guilt and mourning...<br>",
             critFail: "X"
         },
         earth: {
@@ -283,31 +283,31 @@ var world = [
     {
         image: "",
         number: "10",
-        prompt: "",
-        name: "",
+        prompt: "You’re off work and on the way to pick your partner up from their house. The two of you are heading to dinner at your parents. This is also the first time your parents are meeting your partner! You get to your parents house and you find them outside drinking and grilling in the backyard. Your mom squeals with excitement and greets your partner. She tells you to stay outside and keep your dad company while she gives your partner a tour of the house. You catch up with your dad for a bit when you hear a scream inside. You rush in to see what the commotion is all about and find your partner holding a lit candle high in the air with your mom dancing in her nightgown. They tell you they’re raising spirits. Just then your dad falls into the grill. You grab the amulet. Chant. CHANT! They’re all snails. Salt is your only option. But you grab pepper. Everyone sneezes uncontrollably until they cough. Somebody forgot their allergy medicine, Kevin. You die a horrible death. Maybe...you’re just looking for love. In all the wrong places.<br><br>You wake up.",
+        name: "Nonsensical Dream",
         period: "",
         fire: {
             critSuccess: "X<br>",
-            success: "X<br>",
-            failure: "X<br>",
-            critFail: "X<br>"
+            success: "(13+)You are covered in cold sweat. You didn't tell your partner how strange your folks can be! You call them up immediately and let them know about all of your parent's odd quirks. Together you can be a cohesive unit and be prepared for this weekend's dinner.<br>(EXTRA EXP)",
+            failure: "<br>",
+            critFail: "(1-12)<br>Filled with rage at your rediculous parents. Always making a scene... You call up your mother and tell her that you won't be coming to dinner because her and your father are just going to make fools out of themselves and ruin any chance you have to make a life with your partner... Who overhears you from the other room. They are more than a little disappointed. 'You have some things to sort out with your family right now. It's probably not the best time for us to date.' are the last words you hear from them before they leave."
         },
         water: {
-            critSuccess: "X<br>",
-            success: "X<br>",
-            failure: "X<br>",
+            critSuccess: "(15+)<br>You decide that this dream must have been some sort of sign. You decide to confront your mother, bringing up her views on religion and your father's health. You gain much greater understanding of your own family and learn that your father has a secret depression. He is burning himself from the inside due to his inability to talk to someone about it.<br><br>Over time, you and your father open up to eachother more and you are able to help him out of his depression and back into healthy habits.<br>",
+            success: "(10-14)<br>Your dream must have been an amalgamation of symbolism, you think. You talk with your partner about what they think it might mean.<br><br>You settle on the idea that it must mean that chaos will ensue if you were to bring them to meet the family just yet. You postpone until another time.<br>",
+            failure: "(1-9)<br>You ponder what your dream might have meant but keep it to yourself. The following weekend, you and your partner go to see your parents after all. Your mother takes to them immediately and with so much excitement your father peels off to the garage to drink heavily.<br><br>When he comes back, your mother smells it on him and, teary-eyed, accuses him of trying to off himself and leave her alone in life. The tension is so thick that in the aftermath, your partner decides they don't want to be part of your family after all...<br>",
             critFail: "X"
         },
         air: {
             critSuccess: "X<br>",
-            success: "X<br>",
-            failure: "X<br>",
-            critFail: "X"
+            success: "(10+)<br>You slowly open your eyes and to near blinding white light. Coming to terms with your surroundings, a deep muffled voice welcomes you to consciousness. The operation was a success! Your new kidney from your sister has been accepted by your body and you're going to live after all.<br>",
+            failure: "(5-9)<br>A fog slowly creeps back from your vision, enticing you into consciousness. You're keenly aware that your dream was the product of the pharmaceutical cocktail dripping into your arm. Your sister, who would have been your kidney donor, left the hospital early in panic, seeing you shake in fitful sleep. You'll only live another six months without the kidney and you can't afford the surgery again...<br>",
+            critFail: "(1-4)<br>You are shunted into consciousness, jerking violently as you do. You try to shake off the drowsiness but it sticks to you like a fog. Moments later you pass out again, this time from blood loss. Your final image is of your kidney transplant surgeon staring frantically down at you, a torn kidney in his hand still. Acknowledgement of what just transpired hits you only as the world goes black.<br>(GAME OVER)"
         },
         earth: {
             critSuccess: "X<br>",
-            success: "X",
-            failure: "X<br>",
+            success: "(11+)<br>Realizing that part of remaining grounded is being aware of all of your senses, even the subconscious, you resolve to call your mother. You tell her that you've had a horrifying dream and to keep dad away from anything with fire, ESPECIALY the grill. When you arrive the following weekend to have dinner, Your father made the same burgers he always does, except that he did them over the stove. Apparently the propane tank for his grill was faulty and had to be returned.<br>",
+            failure: "(1-10)<br>You resolve to forget the lucid dream and dismiss it as just that; a dream. Your life exists here in reality. 'Stay grounded' you tell yourself.<br><br>When the weekend comes and you do make it to your parent's house, you learn that your father had burned his left arm to the shoulder due to a propane leak on the grill and your mother had taken to pagan and shamanistic rituals to bring his health back. She's gone nearly fanatic with it. Your partner and you both decide that it might be best if you return another time.<br>",
             critFail: "X"
         }
     },
@@ -347,62 +347,61 @@ var world = [
 var one = [
     {
         number: "1",
-        prompt: "You got 4 job offers at the same time///your tinder says you have 4 matches...",
+        prompt: "Its been a year since you last had a job, so you've been to dozens of interviews and nothing has come back. Then, when you've nearly given up, 4 job offers appear in the same evening! Which will you choose…? Battle it out in a game of flip cup!",
         name: "FLIP CUP",
         type: "FFA",
     },{
         number: "2",
-        prompt: "You just got a text from you ex, they tell you they want to get together for some tea and catch up, they just got a promotion and are moving in with a new partner. You  are split on how you should reply...",
+        prompt: "You just got a text from your ex, and they tell you that they want to get together for some tea and catch up - they also just got a promotion and are moving in with a new partner. You’re split on how you should reply - which element takes the lead? Find out in a game of War Pong!",
         name: "PONG",
         type: "FFA",
     },{
         number: "3",
-        prompt: "You snuck your high school crush into your room, your parents knock on your door - “open up” you are torn on how to react.",
+        prompt: "Its your senior year, and you’ve snuck your high school crush into your room. Everything is going smoothly when your our parents knock on your door - “open up!” They say! You're completely torn on how to react! Which element wins? Find out in a game of Alphabet!",
         name: "ALPHABET",
         type: "FFA",
     },{
         number: "4",
-        prompt: "You have a free day - you can’t decide whether play video games, take a day of self care, hit up your friends, or exercise...",
+        prompt: "you have a free day - you can’t decide whether play video games, take a day of self care, hit up your friends, or exercise - which element takes the lead? Find out in an elemental card game!",
         name: "ELEMENTAL CARD GAME",
         type: "FFA",
     },{
         number: "5",
-        prompt: "You are torn between going out with your friends and a night of self care...",
+        prompt: "One of your friends is sad from a breakup and is asking if you'd go out with them. The problem is that you're super tired. You are torn between going out with your friend and a night of self care. Will you choose to take care of yourself, or your friend?",
         name: "RIDDLES",
         type: "2V2",
     },{
         number: "6",
-        prompt: "You found a wallet, you are torn between taking it or turning it in...",
+        prompt: "You found a wallet, you are torn between taking it or turning it in. Which side takes the lead, selfless or selfish?",
         name: "MATHEMATICAL",
         type: "2V2",
     },{
         number: "7",
-        prompt: "Your friend just got into a fight at a bar, you torn on whether you help them or let them learn their lesson on their own",
-        name: "ROCK, PAPER, SCISSORS",
+        prompt: "Ugh. Its been a long night and even though you’re out at a bar, everyone is bored and drinking too much. Of course, one of your friends is about to get into a fight with a stranger over something stupid. You are you torn on whether to help them or let them learn their lesson on their own. Which wins?",
         type: "2V2",
     },{
         number: "8",
-        prompt: "You're meeting a new person you like. You are torn between being who you are are who you think they would like / is it time to put on your mask or not? ",
+        prompt: "You're meeting a new person and you really like them - you are torn between being who you really are who you think they would like. Is it time to put on your mask or not?",
         name: "CHARADES",
         type: "2V2",
     },{
         number: "9",
-        prompt: "There is an addictive part of you, which it’s time to face...",
+        prompt: "There is an addictive part of you which it’s time to face. Will the addiction win, or can the majority of your elements remove that toxic part of you?",
         name: "PONG",
         type: "3V1",
     },{
         number: "10",
-        prompt: "There is a part of you that is not being honest...",
+        prompt: "You've got a triathlon coming up, but feels like certain parts of your being isn’t pulling it’s weight. Play hungry hungry hippos to find out which element of your being is truly hungry for success.",
         name: "HUNGRY HIPPOS",
         type: "3V1",
     },{
         number: "11",
-        prompt: "You're having financial problems and it’s time to get your finances together, which element needs to reigned in?",
+        prompt: "You're having financial problems and aren't sure where you're overspending! It must be somewhere. You barely paid rent past month, so It’s time to get your money situation together - find out which element isn't keeping track in a game of Simon!",
         name: "SIMON",
         type: "3V1",
     },{
         number: "12",
-        prompt: "College exams are upon us, your friends has offered to give you the answers... you are torn on what to do",
+        prompt: "College exams are here, and you've been given a unique and questionable opportunity - the chance to cheat. Does the part of you that so greedily craves success win against the rest of your being? Play a game of trivia to find out!",
         name: "TRIVIA",
         type: "3V1",
     },
@@ -411,42 +410,42 @@ var one = [
 var another = [
     {
         number: "1",
-        prompt: "Stung by bees, only one epi pen left. - Last spot on the lifeboat - last parshute - Future death race - ",
-        name: "DEATH-DODGE BALL",
+        prompt: "Individually, you’ve decided that it’s time to shake life up a bit - and both of your partners suggest skydiving lessons. Neither of you have been skydiving before, but figure it might be a great rush. You’re getting to know each other casually, talking over the headset about how strange the whole experience is. You’re both starting to like each other when a loud explosion shakes the hull.<br><br>“Our engine is blown out!” You hear the pilot yell, as both him and the instructor grab their packs early.<Br><br>“We have no choice, everyone needs to jump now!” The instructor screams. “Get those packs on and follow me!”<br><br>But they both jump first, leaving the two of you to look at each other. You turn around to the rack of remaining parachutes when it hits both of you - there is only one left. Play a game of dodgeball to decide who gets off the plane with the parachute!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio><img src='ep,jpg' alt='image'></img>",
+        name: "DEATH-DODGE BALL"
     },
     {
         number: "2",
-        prompt: "",
+        prompt: "Somehow you’ve found yourself enrolled by the army, and now you find yourself in a ditch. You’ve been crawling around for weeks, and after some enemy fire, realize you’ve been separated from your entire force. It isn’t clear what side won or lost, but you know it’s time to get inside. You crawl to the nearest structure, which is just barely standing. You clear the room and set your things down to take a breath, and walk to the sink to see if it’s working. That’s when the door on the other side of the room opens - it’s an enemy soldier! Play a game of Pong War to see who survives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio>",
         name: "DEATH-PONG WAR",
     },
     {
         number: "3",
-        prompt: "You found a wallet, you are torn between taking it or turning it in...",
+        prompt: "This life, you’re the financial advisor to a brutal dictator. It’s been a surprisingly boring life in which you’ve never had any competition, until today… when a captured CPA sits down in front of you. The dictator walks in, and makes it very clear that he’s only planning on keeping one of you. He pulls out his pistol and tells you both that whoever can find a way to fund his new missile system will stay alive. You’ll solve a math problem in your head to find out who lives!<br><br>((QUEUE SOUND: A DEATH MATCH IS ABOUT TO BEGIN))<br><br><p><span class='titleF'>DEATH GAME! </span></p><audio controls class='titleF'><source src='https://www.computerhope.com/jargon/m/example.mp3' /></audio>",
         name: "DEATH-MATHEMATICAL",
     },
     {
         number: "4",
-        prompt: "",
-        name: "DEATH-NINJA",
+        prompt: "You’re enrolled in a marital arts school to learn deadly art of brazillain ju jitsu - and it’s time for you to put your skills to the test in your first sparring match! It’s to prove you’re ready to move onto the next set of skills and a new belt, so you better win! Fight another human to seize victory and prove you’re ready for the next belt!",
+        name: "NINJA",
     },
     {
         number: "5",
-        prompt: "You are both architects pitching competing ideas for a grant, only one presentation will be funded.",
+        prompt: "You are both architects pitching competing ideas for a grant, who have both been called back. Its just between the two of you, and it’s time for you to show off your stuff- but the thing is, you have to make your pitch in just one minute. Whoever wins this gets the money, so it’s time to battle it out! To represent this epic bout, you’ll compete in a game of Pictionary!",
         name: "PICTIONARY",
     },
     {
         number: "6",
-        prompt: "Both people lost in the wilderness for weeks, you come upon a camp with only enough food water for one person.<br><br>Hunting accident, both hunting and both fire at same time.",
+        prompt: "You’ve both decided to go on a camping trip with a bunch of friends, though neither of you really know each other. It’s deep in the mountains, far enough away from civilization that you can all breathe some fresh air. But it one freak snowstorm later, everyone is cold, thirsty, and starving. All of your cars are stuck, which means you need to get out on foot and find the roads. At first you think someone may come to find you, so you all stay in your cars and try to hold out. But a few days later, that’s clearly not going to happen. The group decides to split up to look for food and clean water. You end up being a pair, and decide to follow and old, abandoned road. You follow it and see a shabby, broken down gas station, and both rush inside - frantically tearing through the store for anything that might be left. Lucky, you both find some bottles of water, but there doesn’t seem to be any food.<br><br>That’s when you see it - a single can of tuna. You’re both starving, but decide that it’s smarter to let one person gather their strength and eat the whole thing. Then maybe they can find help. You can think of no fairer way than rock paper scissors to decide who eats, and who stays hungry.",
         name: "ELEMENTAL ROCK, PAPER, SCISSORS",
     },
     {
         number: "7",
-        prompt: "New boss, girlfriends parents, person you woke up next to.",
+        prompt: "After a long night of clubbing, you both awake drowsily, turning over at different times to see another human being next to you. You both quickly close your eyes again, since you’re rather embarrassed. Neither of you remember much of what happened the night before, and you’re racking your brains just trying to remember the other person’s name… What was it? Didn’t your best friend introduce you?<br><br>An alarm clock goes off, and you both reach for the phone to silence it. Now’s the time. What is this person’s name??<br><br>You’ll be playing the Name Game to represent this scenario!!!",
         name: "NAME GAME",
     },
     {
         number: "8",
-        prompt: "",
+        prompt: "It’s been a long and grueling job interview for the both of you, and surprisingly, you’ve both been called back into the office. The company is a marketing firm, and they want to see how many clever names you can come up with for their new product. You’ll go back and forth thinking of those names until one of you can’t say one… And whoever is left standing wins the job!<br><br>You’ll recreate this situation by playing the game Categories! ",
         name: "CATEGORIES",
     }
 ];
