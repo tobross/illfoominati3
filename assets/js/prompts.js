@@ -377,6 +377,7 @@ var one = [
     },{
         number: "7",
         prompt: "Ugh. Its been a long night and even though you’re out at a bar, everyone is bored and drinking too much. Of course, one of your friends is about to get into a fight with a stranger over something stupid. You are you torn on whether to help them or let them learn their lesson on their own. Which wins?",
+        name: "ROCK PAPER SCISSORS",
         type: "2V2",
     },{
         number: "8",
