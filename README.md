@@ -1,6 +1,6 @@
 # illfoominati3
 
-***Link to deployed application:*** tobross.github.io/illfoominati3
+***Link to deployed application:*** https://tobross.github.io/illfoominati3
 
 ***Formatted for tablets and Desktop but will function on mobile.***
 
